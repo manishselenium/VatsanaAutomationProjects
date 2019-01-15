@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38271" started-at="2019-01-15T12:27:22Z" finished-at="2019-01-15T12:28:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38271" started-at="2019-01-15T12:27:22Z" finished-at="2019-01-15T12:28:01Z">
+      <class name="FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Setup" is-config="true" duration-ms="8833" started-at="2019-01-15T12:27:14Z" finished-at="2019-01-15T12:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="RecordHAR()[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="RecordHAR" is-config="true" duration-ms="25765" started-at="2019-01-15T12:27:22Z" finished-at="2019-01-15T12:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordHAR -->
+        <test-method status="PASS" signature="OpenGoogleappsHar_analyzer()[pri:1, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="OpenGoogleappsHar_analyzer" duration-ms="11510" started-at="2019-01-15T12:27:48Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogleappsHar_analyzer -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="17" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenGoogleappsHar_analyzer status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.OpenGoogleappsHar_analyzer()[pri:1, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckGMTValue()[pri:2, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckGMTValue" duration-ms="44" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGMTValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckGMTValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckGMTValue()[pri:2, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkvisit_blockValue()[pri:3, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkvisit_blockValue" duration-ms="28" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkvisit_blockValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkvisit_blockValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkvisit_blockValue()[pri:3, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkcountry_codeValue()[pri:4, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkcountry_codeValue" duration-ms="29" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcountry_codeValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkcountry_codeValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkcountry_codeValue()[pri:4, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checklanguage_EnglishValue()[pri:5, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checklanguage_EnglishValue" duration-ms="28" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checklanguage_EnglishValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checklanguage_EnglishValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checklanguage_EnglishValue()[pri:5, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkcategory_peopleValue()[pri:6, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkcategory_peopleValue" duration-ms="34" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcategory_peopleValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkcategory_peopleValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkcategory_peopleValue()[pri:6, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkwriter_nameValue()[pri:7, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkwriter_nameValue" duration-ms="30" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkwriter_nameValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkwriter_nameValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkwriter_nameValue()[pri:7, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkwriter_idValue()[pri:8, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkwriter_idValue" duration-ms="28" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkwriter_idValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkwriter_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkwriter_idValue()[pri:8, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkcategory_idValue()[pri:9, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkcategory_idValue" duration-ms="25" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcategory_idValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkcategory_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkcategory_idValue()[pri:9, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkstory_idValue()[pri:10, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkstory_idValue" duration-ms="27" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkstory_idValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkstory_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkstory_idValue()[pri:10, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkgoogle_entitiesValue()[pri:11, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkgoogle_entitiesValue" duration-ms="26" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkgoogle_entitiesValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkgoogle_entitiesValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkgoogle_entitiesValue()[pri:11, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkpage_typeValue()[pri:12, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkpage_typeValue" duration-ms="29" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkpage_typeValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkpage_typeValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkpage_typeValue()[pri:12, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckcityValue()[pri:13, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckcityValue" duration-ms="24" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckcityValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckcityValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckcityValue()[pri:13, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkcountry_nameValue()[pri:14, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkcountry_nameValue" duration-ms="25" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcountry_nameValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkcountry_nameValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkcountry_nameValue()[pri:14, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckfpValue()[pri:15, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckfpValue" duration-ms="24" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckfpValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckfpValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckfpValue()[pri:15, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkpage_urlValue()[pri:16, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkpage_urlValue" duration-ms="27" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkpage_urlValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkpage_urlValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkpage_urlValue()[pri:16, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkclient_ipValue()[pri:17, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkclient_ipValue" duration-ms="29" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkclient_ipValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkclient_ipValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkclient_ipValue()[pri:17, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkreferral_domainValue()[pri:18, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkreferral_domainValue" duration-ms="44" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkreferral_domainValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkreferral_domainValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkreferral_domainValue()[pri:18, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkdev_sourceValue()[pri:19, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkdev_sourceValue" duration-ms="30" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkdev_sourceValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkdev_sourceValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkdev_sourceValue()[pri:19, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckPBValue()[pri:20, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckPBValue" duration-ms="23" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPBValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckPBValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckPBValue()[pri:20, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkstory_tagsValue()[pri:21, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkstory_tagsValue" duration-ms="32" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkstory_tagsValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkstory_tagsValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkstory_tagsValue()[pri:21, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkcurrent_blockValue()[pri:22, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkcurrent_blockValue" duration-ms="25" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkcurrent_blockValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkcurrent_blockValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkcurrent_blockValue()[pri:22, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checktotal_blocksValue()[pri:23, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checktotal_blocksValue" duration-ms="27" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checktotal_blocksValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checktotal_blocksValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checktotal_blocksValue()[pri:23, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckdomainValue()[pri:24, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckdomainValue" duration-ms="22" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckdomainValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckdomainValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckdomainValue()[pri:24, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckadPartnerValue()[pri:25, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckadPartnerValue" duration-ms="23" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckadPartnerValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckadPartnerValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckadPartnerValue()[pri:25, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckadblockerValue()[pri:26, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckadblockerValue" duration-ms="24" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckadblockerValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckadblockerValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckadblockerValue()[pri:26, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckofcValue()[pri:27, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckofcValue" duration-ms="30" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckofcValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckofcValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckofcValue()[pri:27, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checktotal_adsValue()[pri:28, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checktotal_adsValue" duration-ms="26" started-at="2019-01-15T12:28:00Z" finished-at="2019-01-15T12:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checktotal_adsValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checktotal_adsValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checktotal_adsValue()[pri:28, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checktree_idValue()[pri:29, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checktree_idValue" duration-ms="26" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checktree_idValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checktree_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checktree_idValue()[pri:29, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckussValue()[pri:30, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckussValue" duration-ms="29" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckussValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckussValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckussValue()[pri:30, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckpidValue()[pri:31, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="CheckpidValue" duration-ms="31" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckpidValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckpidValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.CheckpidValue()[pri:31, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="Checkinit_story_idValue()[pri:32, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="Checkinit_story_idValue" duration-ms="27" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkinit_story_idValue -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Checkinit_story_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngFMTest.Checkinit_story_idValue()[pri:32, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest@6dde5c8c]" name="tearDown" is-config="true" duration-ms="1369" started-at="2019-01-15T12:28:01Z" finished-at="2019-01-15T12:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FoodMateTestCases.CaptureAndParsingHarFileForPixPngFMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

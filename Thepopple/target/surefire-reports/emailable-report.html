@@ -1,0 +1,1288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">75</td><td class="numi">75</td><td class="numi">0</td><td class="numi_attn">32</td><td class="numi">544.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="32">PoppleTestCases.CaptureAndParsingHarFileForPixPngTest<td><a href="#m1"><b>CheckPBValue</b>  </a></td><td class="numi">1</td><td class="numi">10036</td></tr><tr class="failedodd"><td><a href="#m2"><b>Checkcountry_codeValue</b>  </a></td><td class="numi">1</td><td class="numi">10049</td></tr><tr class="failedodd"><td><a href="#m3"><b>Checkclient_ipValue</b>  </a></td><td class="numi">1</td><td class="numi">10016</td></tr><tr class="failedodd"><td><a href="#m4"><b>Checkcurrent_blockValue</b>  </a></td><td class="numi">1</td><td class="numi">10027</td></tr><tr class="failedodd"><td><a href="#m5"><b>CheckdomainValue</b>  </a></td><td class="numi">1</td><td class="numi">10067</td></tr><tr class="failedodd"><td><a href="#m6"><b>CheckcityValue</b>  </a></td><td class="numi">1</td><td class="numi">10046</td></tr><tr class="failedodd"><td><a href="#m7"><b>CheckfpValue</b>  </a></td><td class="numi">1</td><td class="numi">10042</td></tr><tr class="failedodd"><td><a href="#m8"><b>Checkwriter_idValue</b>  </a></td><td class="numi">1</td><td class="numi">10036</td></tr><tr class="failedodd"><td><a href="#m9"><b>Checkgoogle_entitiesValue</b>  </a></td><td class="numi">1</td><td class="numi">10051</td></tr><tr class="failedodd"><td><a href="#m10"><b>Checkinit_story_idValue</b>  </a></td><td class="numi">1</td><td class="numi">10063</td></tr><tr class="failedodd"><td><a href="#m11"><b>Checkpage_urlValue</b>  </a></td><td class="numi">1</td><td class="numi">10014</td></tr><tr class="failedodd"><td><a href="#m12"><b>CheckofcValue</b>  </a></td><td class="numi">1</td><td class="numi">10054</td></tr><tr class="failedodd"><td><a href="#m13"><b>Checkcountry_nameValue</b>  </a></td><td class="numi">1</td><td class="numi">10049</td></tr><tr class="failedodd"><td><a href="#m14"><b>Checkwriter_nameValue</b>  </a></td><td class="numi">1</td><td class="numi">10042</td></tr><tr class="failedodd"><td><a href="#m15"><b>Checkcategory_idValue</b>  </a></td><td class="numi">1</td><td class="numi">10071</td></tr><tr class="failedodd"><td><a href="#m16"><b>Checkdev_sourceValue</b>  </a></td><td class="numi">1</td><td class="numi">10026</td></tr><tr class="failedodd"><td><a href="#m17"><b>Checkvisit_blockValue</b>  </a></td><td class="numi">1</td><td class="numi">10062</td></tr><tr class="failedodd"><td><a href="#m18"><b>Checkcategory_peopleValue</b>  </a></td><td class="numi">1</td><td class="numi">10062</td></tr><tr class="failedodd"><td><a href="#m19"><b>Checktotal_adsValue</b>  </a></td><td class="numi">1</td><td class="numi">10011</td></tr><tr class="failedodd"><td><a href="#m20"><b>CheckussValue</b>  </a></td><td class="numi">1</td><td class="numi">10055</td></tr><tr class="failedodd"><td><a href="#m21"><b>CheckpidValue</b>  </a></td><td class="numi">1</td><td class="numi">10050</td></tr><tr class="failedodd"><td><a href="#m22"><b>Checktotal_blocksValue</b>  </a></td><td class="numi">1</td><td class="numi">10064</td></tr><tr class="failedodd"><td><a href="#m23"><b>Checkstory_idValue</b>  </a></td><td class="numi">1</td><td class="numi">10030</td></tr><tr class="failedodd"><td><a href="#m24"><b>Checkpage_typeValue</b>  </a></td><td class="numi">1</td><td class="numi">10049</td></tr><tr class="failedodd"><td><a href="#m25"><b>Checklanguage_EnglishValue</b>  </a></td><td class="numi">1</td><td class="numi">10051</td></tr><tr class="failedodd"><td><a href="#m26"><b>CheckGMTValue</b>  </a></td><td class="numi">1</td><td class="numi">10057</td></tr><tr class="failedodd"><td><a href="#m27"><b>Checkstory_tagsValue</b>  </a></td><td class="numi">1</td><td class="numi">10052</td></tr><tr class="failedodd"><td><a href="#m28"><b>CheckadblockerValue</b>  </a></td><td class="numi">1</td><td class="numi">10038</td></tr><tr class="failedodd"><td><a href="#m29"><b>Checktree_idValue</b>  </a></td><td class="numi">1</td><td class="numi">10025</td></tr><tr class="failedodd"><td><a href="#m30"><b>ReadHarFile</b>  </a></td><td class="numi">1</td><td class="numi">7198</td></tr><tr class="failedodd"><td><a href="#m31"><b>CheckadPartnerValue</b>  </a></td><td class="numi">1</td><td class="numi">10058</td></tr><tr class="failedodd"><td><a href="#m32"><b>Checkreferral_domainValue</b>  </a></td><td class="numi">1</td><td class="numi">10051</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m33"><b>CheckTwittLink</b>  </a></td><td class="numi">1</td><td class="numi">28</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m34"><b>CheckStoryContent</b>  </a></td><td class="numi">1</td><td class="numi">1115</td></tr><tr class="passedeven"><td><a href="#m35"><b>CheckStoryAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1257</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m36"><b>CheckCantactUsPage</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m37"><b>CheckThirdPostImage</b>  </a></td><td class="numi">1</td><td class="numi">32</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m38"><b>CheckSearchHeader</b>  </a></td><td class="numi">1</td><td class="numi">38</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m39"><b>CheckWriterName</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m40"><b>CheckStoryFirstImage</b>  </a></td><td class="numi">1</td><td class="numi">53</td></tr><tr class="passedodd"><td><a href="#m41"><b>CheckStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">1418</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m42"><b>CheckSiteLogo</b>  </a></td><td class="numi">1</td><td class="numi">22</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m43"><b>ClickHamburgerMenu</b>  </a></td><td class="numi">1</td><td class="numi">2029</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m44"><b>CheckSearchedStoryImage</b>  </a></td><td class="numi">1</td><td class="numi">36</td></tr>
+<tr class="passedodd"><td rowspan="3">PoppleTestCases.HomePageTestCasesTest<td><a href="#m45"><b>CheckQuizeFeedImage</b>  </a></td><td class="numi">1</td><td class="numi">1057</td></tr><tr class="passedodd"><td><a href="#m46"><b>CheckYouTubeLink</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr><tr class="passedodd"><td><a href="#m47"><b>CheckPositiveCategoriesLink</b>  </a></td><td class="numi">1</td><td class="numi">28</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.TagstestcasesTest<td><a href="#m48"><b>CheckSearchTags</b>  </a></td><td class="numi">1</td><td class="numi">32</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.HomePageTestCasesTest<td><a href="#m49"><b>CheckInstaLink</b>  </a></td><td class="numi">1</td><td class="numi">5024</td></tr><tr class="passedodd"><td><a href="#m50"><b>CheckPeopleCategoriesLink</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m51"><b>CheckAuthorImage</b>  </a></td><td class="numi">1</td><td class="numi">26</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m52"><b>CheckLatestStoryImage</b>  </a></td><td class="numi">1</td><td class="numi">33</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m53"><b>CheckStoryShareOptions</b>  </a></td><td class="numi">1</td><td class="numi">1282</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m54"><b>CheckpopularCategoriesLink</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m55"><b>ClickHamburgerMenu</b>  </a></td><td class="numi">1</td><td class="numi">17806</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m56"><b>CheckFeaturedPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">36</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m57"><b>CheckPopularPage</b>  </a></td><td class="numi">1</td><td class="numi">7665</td></tr>
+<tr class="passedodd"><td rowspan="3">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m58"><b>CheckDontMissThisStory</b>  </a></td><td class="numi">1</td><td class="numi">19</td></tr><tr class="passedodd"><td><a href="#m59"><b>CheckEditor</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr><tr class="passedodd"><td><a href="#m60"><b>CheckBackgroundImage</b>  </a></td><td class="numi">1</td><td class="numi">24</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m61"><b>CheckPositivePage</b>  </a></td><td class="numi">1</td><td class="numi">6360</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m62"><b>CheckTheVideo1</b>  </a></td><td class="numi">1</td><td class="numi">1061</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m63"><b>CheckAuthorName</b>  </a></td><td class="numi">1</td><td class="numi">31</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m64"><b>Checkvideo2</b>  </a></td><td class="numi">1</td><td class="numi">1072</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m65"><b>CheckPrivacyPolicyPage</b>  </a></td><td class="numi">1</td><td class="numi">5214</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m66"><b>CheckThirdPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m67"><b>CheckPopularCata</b>  </a></td><td class="numi">1</td><td class="numi">1086</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m68"><b>CheckLatestStoryAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1077</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m69"><b>CheckProfileDesc</b>  </a></td><td class="numi">1</td><td class="numi">26</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m70"><b>CheckEatSleepReadReaptImage</b>  </a></td><td class="numi">1</td><td class="numi">1059</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m71"><b>CheckSearchedStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">43</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m72"><b>CheckTermsOfUsePage</b>  </a></td><td class="numi">1</td><td class="numi">5785</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m73"><b>CheckEatSleepReadReaptTitle</b>  </a></td><td class="numi">1</td><td class="numi">1065</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m74"><b>CheckAdvertisementFrame</b>  </a></td><td class="numi">1</td><td class="numi">69</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m75"><b>CheckFeaturedPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">32</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m76"><b>CheckStoryShares</b>  </a></td><td class="numi">1</td><td class="numi">1120</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.HomePageTestCasesTest<td><a href="#m77"><b>CheckSecondPostImage</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr><tr class="passedeven"><td><a href="#m78"><b>CheckSecondPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">42</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m79"><b>CheckAbutUsLink</b>  </a></td><td class="numi">1</td><td class="numi">49</td></tr><tr class="passedodd"><td><a href="#m80"><b>CheckCantactUsLink</b>  </a></td><td class="numi">1</td><td class="numi">50</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m81"><b>CheckEatSleepReadReaptAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1083</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m82"><b>CheckpeopleCata</b>  </a></td><td class="numi">1</td><td class="numi">1105</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m83"><b>CheckLatestStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">30</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m84"><b>CheckPeoplePage</b>  </a></td><td class="numi">1</td><td class="numi">5375</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m85"><b>CheckQuizLink</b>  </a></td><td class="numi">1</td><td class="numi">41</td></tr>
+<tr class="passedodd"><td rowspan="3">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m86"><b>CheckVideoPage</b>  </a></td><td class="numi">1</td><td class="numi">11959</td></tr><tr class="passedodd"><td><a href="#m87"><b>CheckPositiveCata</b>  </a></td><td class="numi">1</td><td class="numi">1122</td></tr><tr class="passedodd"><td><a href="#m88"><b>CheckQuizLink</b>  </a></td><td class="numi">1</td><td class="numi">1127</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m89"><b>CheckFeaturedPostImage</b>  </a></td><td class="numi">1</td><td class="numi">75</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m90"><b>CheckStoryDesc</b>  </a></td><td class="numi">1</td><td class="numi">1127</td></tr>
+<tr class="passedeven"><td rowspan="3">PoppleTestCases.HomePageTestCasesTest<td><a href="#m91"><b>CheckSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">2920</td></tr><tr class="passedeven"><td><a href="#m92"><b>CheckQuizefeedTitle</b>  </a></td><td class="numi">1</td><td class="numi">1064</td></tr><tr class="passedeven"><td><a href="#m93"><b>QuizeFeedAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1036</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.SearchPageTestCasesTest<td><a href="#m94"><b>ClickSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">54180</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.TagstestcasesTest<td><a href="#m95"><b>CheckSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">6980</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m96"><b>CheckFacebookLink</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m97"><b>ClickAuthorName</b>  </a></td><td class="numi">1</td><td class="numi">20409</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.HomePageTestCasesTest<td><a href="#m98"><b>CheckVideosLink</b>  </a></td><td class="numi">1</td><td class="numi">41</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m99"><b>CheckPrivacyPolicyLink</b>  </a></td><td class="numi">1</td><td class="numi">35</td></tr><tr class="passedeven"><td><a href="#m100"><b>CheckTermsOfUseLink</b>  </a></td><td class="numi">1</td><td class="numi">41</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.StoryPageTestCasesTest<td><a href="#m101"><b>OpenStoryPage</b>  </a></td><td class="numi">1</td><td class="numi">37884</td></tr>
+<tr class="passedeven"><td rowspan="2">PoppleTestCases.CatagoriesPageTestCasesTest<td><a href="#m102"><b>CheckQuizPage</b>  </a></td><td class="numi">1</td><td class="numi">6370</td></tr><tr class="passedeven"><td><a href="#m103"><b>CheckVideoLink</b>  </a></td><td class="numi">1</td><td class="numi">1121</td></tr>
+<tr class="passedodd"><td rowspan="2">PoppleTestCases.HomePageTestCasesTest<td><a href="#m104"><b>CheckSecondPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">26</td></tr><tr class="passedodd"><td><a href="#m105"><b>CheckThirdPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">23</td></tr>
+<tr class="passedeven"><td rowspan="1">PoppleTestCases.FooterOptionTestCasesTest<td><a href="#m106"><b>CheckAbutUsPage</b>  </a></td><td class="numi">1</td><td class="numi">5798</td></tr>
+<tr class="passedodd"><td rowspan="1">PoppleTestCases.UserProfileTestCasesTest<td><a href="#m107"><b>LatestStories</b>  </a></td><td class="numi">1</td><td class="numi">18</td></tr>
+</table>
+<h1>Command line test</h1>
+<a id="m1"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckPBValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(19)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(19)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckPBValue(CaptureAndParsingHarFileForPixPngTest.java:652)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcountry_codeValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(3)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(3)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcountry_codeValue(CaptureAndParsingHarFileForPixPngTest.java:184)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkclient_ipValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(16)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(16)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkclient_ipValue(CaptureAndParsingHarFileForPixPngTest.java:559)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcurrent_blockValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(21)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(21)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcurrent_blockValue(CaptureAndParsingHarFileForPixPngTest.java:714)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckdomainValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(23)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(23)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckdomainValue(CaptureAndParsingHarFileForPixPngTest.java:775)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckcityValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(12)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(12)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckcityValue(CaptureAndParsingHarFileForPixPngTest.java:440)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckfpValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(14)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(14)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckfpValue(CaptureAndParsingHarFileForPixPngTest.java:498)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkwriter_idValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(7)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(7)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkwriter_idValue(CaptureAndParsingHarFileForPixPngTest.java:290)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkgoogle_entitiesValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(10)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(10)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkgoogle_entitiesValue(CaptureAndParsingHarFileForPixPngTest.java:378)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkinit_story_idValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(31)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(31)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkinit_story_idValue(CaptureAndParsingHarFileForPixPngTest.java:1022)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkpage_urlValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(15)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(15)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkpage_urlValue(CaptureAndParsingHarFileForPixPngTest.java:528)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckofcValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(26)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(26)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckofcValue(CaptureAndParsingHarFileForPixPngTest.java:867)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcountry_nameValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(13)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(13)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcountry_nameValue(CaptureAndParsingHarFileForPixPngTest.java:468)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkwriter_nameValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(6)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(6)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkwriter_nameValue(CaptureAndParsingHarFileForPixPngTest.java:262)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcategory_idValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(8)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(8)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcategory_idValue(CaptureAndParsingHarFileForPixPngTest.java:318)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkdev_sourceValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(18)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(18)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkdev_sourceValue(CaptureAndParsingHarFileForPixPngTest.java:621)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkvisit_blockValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(2)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(2)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkvisit_blockValue(CaptureAndParsingHarFileForPixPngTest.java:161)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkcategory_peopleValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(5)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(5)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkcategory_peopleValue(CaptureAndParsingHarFileForPixPngTest.java:235)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checktotal_adsValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(27)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(27)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktotal_adsValue(CaptureAndParsingHarFileForPixPngTest.java:898)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckussValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(29)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(29)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckussValue(CaptureAndParsingHarFileForPixPngTest.java:960)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckpidValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(30)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(30)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckpidValue(CaptureAndParsingHarFileForPixPngTest.java:991)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checktotal_blocksValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(22)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(22)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktotal_blocksValue(CaptureAndParsingHarFileForPixPngTest.java:745)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkstory_idValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(9)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(9)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkstory_idValue(CaptureAndParsingHarFileForPixPngTest.java:348)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkpage_typeValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(11)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(11)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkpage_typeValue(CaptureAndParsingHarFileForPixPngTest.java:409)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checklanguage_EnglishValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(4)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(4)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checklanguage_EnglishValue(CaptureAndParsingHarFileForPixPngTest.java:207)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckGMTValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(1)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(1)}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckGMTValue(CaptureAndParsingHarFileForPixPngTest.java:139)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkstory_tagsValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(20)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(20)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkstory_tagsValue(CaptureAndParsingHarFileForPixPngTest.java:683)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckadblockerValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(25)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(25)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckadblockerValue(CaptureAndParsingHarFileForPixPngTest.java:836)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checktree_idValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(28)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(28)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checktree_idValue(CaptureAndParsingHarFileForPixPngTest.java:929)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:ReadHarFile</h2>
+<div style="padding-left:3em">
+<p>unknown error: path is not absolute: thepopple.har
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.ReadHarFile(CaptureAndParsingHarFileForPixPngTest.java:126)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:CheckadPartnerValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(24)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(24)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.CheckadPartnerValue(CaptureAndParsingHarFileForPixPngTest.java:805)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>PoppleTestCases.CaptureAndParsingHarFileForPixPngTest:Checkreferral_domainValue</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(17)&quot;}
+  (Session info: headless chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;wittyfeed-Vostro-3558&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-131-generic&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:44981}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.45.615279 (12b89733300bd268cff3b78fc76cb8f3a7cc44e5), userDataDir=/tmp/.org.chromium.Chromium.hgXr3R}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9266730fee097304edea612ce9438aac
+*** Element info: {Using=css selector, value=#infoTabContent &gt; dl:nth-child(2) &gt; dd:nth-child(6) &gt; ul:nth-child(1) &gt; li:nth-child(17)}</p>
+sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+<br/>at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+<br/>at PoppleTestCases.CaptureAndParsingHarFileForPixPngTest.Checkreferral_domainValue(CaptureAndParsingHarFileForPixPngTest.java:590)
+<br/>36 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckTwittLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryContent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckCantactUsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckThirdPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>PoppleTestCases.SearchPageTestCasesTest:CheckSearchHeader</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckWriterName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryFirstImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSiteLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:ClickHamburgerMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>PoppleTestCases.SearchPageTestCasesTest:CheckSearchedStoryImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckQuizeFeedImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckYouTubeLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckPositiveCategoriesLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>PoppleTestCases.TagstestcasesTest:CheckSearchTags</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckInstaLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckPeopleCategoriesLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckAuthorImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckLatestStoryImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryShareOptions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckpopularCategoriesLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:ClickHamburgerMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFeaturedPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPopularPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckDontMissThisStory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckEditor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckBackgroundImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPositivePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckTheVideo1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckAuthorName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>PoppleTestCases.HomePageTestCasesTest:Checkvideo2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckPrivacyPolicyPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckThirdPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPopularCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckLatestStoryAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>PoppleTestCases.UserProfileTestCasesTest:CheckProfileDesc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckEatSleepReadReaptImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>PoppleTestCases.SearchPageTestCasesTest:CheckSearchedStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckTermsOfUsePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckEatSleepReadReaptTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m74"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckAdvertisementFrame</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m75"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFeaturedPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m76"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryShares</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m77"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSecondPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m78"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSecondPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m79"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckAbutUsLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m80"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckCantactUsLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m81"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckEatSleepReadReaptAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m82"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckpeopleCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m83"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckLatestStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m84"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPeoplePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m85"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckQuizLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m86"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckVideoPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m87"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckPositiveCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m88"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckQuizLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m89"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFeaturedPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m90"></a><h2>PoppleTestCases.StoryPageTestCasesTest:CheckStoryDesc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m91"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m92"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckQuizefeedTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m93"></a><h2>PoppleTestCases.HomePageTestCasesTest:QuizeFeedAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m94"></a><h2>PoppleTestCases.SearchPageTestCasesTest:ClickSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m95"></a><h2>PoppleTestCases.TagstestcasesTest:CheckSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m96"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckFacebookLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m97"></a><h2>PoppleTestCases.UserProfileTestCasesTest:ClickAuthorName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m98"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckVideosLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m99"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckPrivacyPolicyLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m100"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckTermsOfUseLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m101"></a><h2>PoppleTestCases.StoryPageTestCasesTest:OpenStoryPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m102"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckQuizPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m103"></a><h2>PoppleTestCases.CatagoriesPageTestCasesTest:CheckVideoLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m104"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckSecondPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m105"></a><h2>PoppleTestCases.HomePageTestCasesTest:CheckThirdPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m106"></a><h2>PoppleTestCases.FooterOptionTestCasesTest:CheckAbutUsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m107"></a><h2>PoppleTestCases.UserProfileTestCasesTest:LatestStories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

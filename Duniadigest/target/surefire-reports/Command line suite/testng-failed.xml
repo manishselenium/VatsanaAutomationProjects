@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="DuniadigestTestCases.DuniadigestTagstestcasesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getResults"/>
+          <include name="Setup"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest">
+        <methods>
+          <include name="RecordHAR"/>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestHomePageTestcasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestSearchPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestUserProfileTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestStoryPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+          <include name="CheckFilmyDuniaPage"/>
+          <include name="CheckSitareZaminPePage"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

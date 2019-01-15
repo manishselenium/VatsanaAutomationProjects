@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36239" started-at="2019-01-10T13:24:47Z" finished-at="2019-01-10T13:25:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36239" started-at="2019-01-10T13:24:47Z" finished-at="2019-01-10T13:25:24Z">
+      <class name="InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="Setup" is-config="true" duration-ms="9045" started-at="2019-01-10T13:24:38Z" finished-at="2019-01-10T13:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="CheckSearchOption()[pri:75, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckSearchOption" duration-ms="19531" started-at="2019-01-10T13:24:47Z" finished-at="2019-01-10T13:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchOption -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="12" started-at="2019-01-10T13:25:07Z" finished-at="2019-01-10T13:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchOption status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckSearchOption()[pri:75, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSiteLogo()[pri:76, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckSiteLogo" duration-ms="13" started-at="2019-01-10T13:25:07Z" finished-at="2019-01-10T13:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSiteLogo -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:07Z" finished-at="2019-01-10T13:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSiteLogo status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckSiteLogo()[pri:76, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckExploreCategories()[pri:77, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckExploreCategories" duration-ms="14" started-at="2019-01-10T13:25:07Z" finished-at="2019-01-10T13:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckExploreCategories -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:07Z" finished-at="2019-01-10T13:25:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckExploreCategories status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckExploreCategories()[pri:77, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckTalesCategories()[pri:78, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckTalesCategories" duration-ms="5014" started-at="2019-01-10T13:25:07Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTalesCategories -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckTalesCategories status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckTalesCategories()[pri:78, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckVideosCategories()[pri:79, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckVideosCategories" duration-ms="12" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckVideosCategories -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckVideosCategories status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckVideosCategories()[pri:79, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckExpressCategories()[pri:80, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckExpressCategories" duration-ms="11" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckExpressCategories -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckExpressCategories status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckExpressCategories()[pri:80, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckIVPicks()[pri:81, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckIVPicks" duration-ms="13" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIVPicks -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckIVPicks status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckIVPicks()[pri:81, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckInstaLink()[pri:85, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckInstaLink" duration-ms="12" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInstaLink -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckInstaLink status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckInstaLink()[pri:85, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckTwitterLink()[pri:86, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckTwitterLink" duration-ms="12" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTwitterLink -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckTwitterLink status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckTwitterLink()[pri:86, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckFacebookLink()[pri:87, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckFacebookLink" duration-ms="17" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFacebookLink -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFacebookLink status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckFacebookLink()[pri:87, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckYouTubeLink()[pri:88, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckYouTubeLink" duration-ms="14" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckYouTubeLink -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckYouTubeLink status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckYouTubeLink()[pri:88, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckFeaturedPostImage()[pri:89, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckFeaturedPostImage" duration-ms="10" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFeaturedPostImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFeaturedPostImage status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckFeaturedPostImage()[pri:89, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckFeaturedPostTitle()[pri:90, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckFeaturedPostTitle" duration-ms="12" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFeaturedPostTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFeaturedPostTitle status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckFeaturedPostTitle()[pri:90, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckFeaturedPostAuthor()[pri:91, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckFeaturedPostAuthor" duration-ms="11" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFeaturedPostAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFeaturedPostAuthor status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckFeaturedPostAuthor()[pri:91, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSecondPostImage()[pri:92, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckSecondPostImage" duration-ms="12" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSecondPostImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSecondPostImage status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckSecondPostImage()[pri:92, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSecondPostTitle()[pri:93, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckSecondPostTitle" duration-ms="11" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSecondPostTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSecondPostTitle status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckSecondPostTitle()[pri:93, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSecondPostAuthor()[pri:94, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckSecondPostAuthor" duration-ms="9" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSecondPostAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSecondPostAuthor status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckSecondPostAuthor()[pri:94, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckThirdPostImage()[pri:95, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckThirdPostImage" duration-ms="9" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThirdPostImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckThirdPostImage status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckThirdPostImage()[pri:95, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckThirdPostTitle()[pri:96, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckThirdPostTitle" duration-ms="14" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThirdPostTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckThirdPostTitle status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckThirdPostTitle()[pri:96, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckThirdPostAuthor()[pri:97, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckThirdPostAuthor" duration-ms="11" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckThirdPostAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckThirdPostAuthor status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckThirdPostAuthor()[pri:97, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckLatestStoryImage()[pri:98, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckLatestStoryImage" duration-ms="1032" started-at="2019-01-10T13:25:12Z" finished-at="2019-01-10T13:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLatestStoryImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:13Z" finished-at="2019-01-10T13:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckLatestStoryImage status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckLatestStoryImage()[pri:98, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckLatestStoryTitle()[pri:99, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckLatestStoryTitle" duration-ms="1050" started-at="2019-01-10T13:25:13Z" finished-at="2019-01-10T13:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLatestStoryTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:14Z" finished-at="2019-01-10T13:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckLatestStoryTitle status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckLatestStoryTitle()[pri:99, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckLatestStoryAuthor()[pri:100, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckLatestStoryAuthor" duration-ms="1029" started-at="2019-01-10T13:25:14Z" finished-at="2019-01-10T13:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLatestStoryAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:15Z" finished-at="2019-01-10T13:25:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckLatestStoryAuthor status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckLatestStoryAuthor()[pri:100, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckIVVideo1()[pri:101, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckIVVideo1" duration-ms="1026" started-at="2019-01-10T13:25:15Z" finished-at="2019-01-10T13:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIVVideo1 -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:16Z" finished-at="2019-01-10T13:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckIVVideo1 status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckIVVideo1()[pri:101, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckIVVideo2()[pri:102, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckIVVideo2" duration-ms="1027" started-at="2019-01-10T13:25:16Z" finished-at="2019-01-10T13:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIVVideo2 -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:17Z" finished-at="2019-01-10T13:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckIVVideo2 status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckIVVideo2()[pri:102, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckQuizeFeedImage()[pri:103, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckQuizeFeedImage" duration-ms="1027" started-at="2019-01-10T13:25:17Z" finished-at="2019-01-10T13:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQuizeFeedImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T13:25:18Z" finished-at="2019-01-10T13:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckQuizeFeedImage status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckQuizeFeedImage()[pri:103, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckQuizefeedTitle()[pri:104, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckQuizefeedTitle" duration-ms="1040" started-at="2019-01-10T13:25:18Z" finished-at="2019-01-10T13:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQuizefeedTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:19Z" finished-at="2019-01-10T13:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckQuizefeedTitle status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckQuizefeedTitle()[pri:104, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckQuizeFeedAuthor()[pri:105, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckQuizeFeedAuthor" duration-ms="1033" started-at="2019-01-10T13:25:19Z" finished-at="2019-01-10T13:25:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQuizeFeedAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:20Z" finished-at="2019-01-10T13:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckQuizeFeedAuthor status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckQuizeFeedAuthor()[pri:105, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckEatSleepReadReaptImage()[pri:106, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckEatSleepReadReaptImage" duration-ms="1039" started-at="2019-01-10T13:25:20Z" finished-at="2019-01-10T13:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckEatSleepReadReaptImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:21Z" finished-at="2019-01-10T13:25:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckEatSleepReadReaptImage status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckEatSleepReadReaptImage()[pri:106, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckEatSleepReadReaptTitle()[pri:107, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckEatSleepReadReaptTitle" duration-ms="1038" started-at="2019-01-10T13:25:21Z" finished-at="2019-01-10T13:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckEatSleepReadReaptTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:22Z" finished-at="2019-01-10T13:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckEatSleepReadReaptTitle status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckEatSleepReadReaptTitle()[pri:107, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckEatSleepReadReaptAuthor()[pri:108, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="CheckEatSleepReadReaptAuthor" duration-ms="1027" started-at="2019-01-10T13:25:22Z" finished-at="2019-01-10T13:25:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckEatSleepReadReaptAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T13:25:24Z" finished-at="2019-01-10T13:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckEatSleepReadReaptAuthor status=SUCCESS method=InnnerVoiceHomePageTestcasesTest.CheckEatSleepReadReaptAuthor()[pri:108, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest@6d3af739]" name="tearDown" is-config="true" duration-ms="1859" started-at="2019-01-10T13:25:24Z" finished-at="2019-01-10T13:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- InnervoiceTestCases.InnnerVoiceHomePageTestcasesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest">
+        <methods>
+          <include name="CheckussValue"/>
+          <include name="getResults"/>
+          <include name="Checkcurrent_blockValue"/>
+          <include name="CheckGMTValue"/>
+          <include name="Checkcountry_nameValue"/>
+          <include name="Checkcategory_idValue"/>
+          <include name="CheckfpValue"/>
+          <include name="Checkdev_sourceValue"/>
+          <include name="CheckofcValue"/>
+          <include name="Checkinit_story_idValue"/>
+          <include name="Checkpage_urlValue"/>
+          <include name="CheckpidValue"/>
+          <include name="tearDown"/>
+          <include name="Checkwriter_nameValue"/>
+          <include name="Checkvisit_blockValue"/>
+          <include name="Checktree_idValue"/>
+          <include name="Checkcountry_codeValue"/>
+          <include name="Checkgoogle_entitiesValue"/>
+          <include name="Checktotal_blocksValue"/>
+          <include name="RecordHAR"/>
+          <include name="Checkpage_typeValue"/>
+          <include name="Checkstory_idValue"/>
+          <include name="Checkcategory_peopleValue"/>
+          <include name="Setup"/>
+          <include name="Checkclient_ipValue"/>
+          <include name="OpenGoogleappsHar_analyzer"/>
+          <include name="CheckdomainValue"/>
+          <include name="CheckPBValue"/>
+          <include name="CheckadblockerValue"/>
+          <include name="Checktotal_adsValue"/>
+          <include name="Checklanguage_EnglishValue"/>
+          <include name="Checkstory_tagsValue"/>
+          <include name="Checkwriter_idValue"/>
+          <include name="Checkreferral_domainValue"/>
+          <include name="CheckcityValue"/>
+          <include name="CheckadPartnerValue"/>
+        </methods>
+      </class> <!-- MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

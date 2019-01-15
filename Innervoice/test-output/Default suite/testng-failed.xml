@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="InnervoiceTestCases.CaptureAndParsingHarFileForPixPngIVTest">
+        <methods>
+          <include name="Checktotal_adsValue"/>
+          <include name="CheckcityValue"/>
+          <include name="Checkreferral_domainValue"/>
+          <include name="Checkcategory_idValue"/>
+          <include name="Checkstory_tagsValue"/>
+          <include name="Checkwriter_idValue"/>
+          <include name="CheckadPartnerValue"/>
+          <include name="Checklanguage_EnglishValue"/>
+          <include name="CheckPBValue"/>
+          <include name="CheckadblockerValue"/>
+          <include name="Checkcategory_peopleValue"/>
+          <include name="Checkclient_ipValue"/>
+          <include name="RecordHAR"/>
+          <include name="OpenGoogleappsHar_analyzer"/>
+          <include name="Checkpage_typeValue"/>
+          <include name="Checkvisit_blockValue"/>
+          <include name="Checkcountry_codeValue"/>
+          <include name="Checkgoogle_entitiesValue"/>
+          <include name="Checkstory_idValue"/>
+          <include name="Setup"/>
+          <include name="Checktotal_blocksValue"/>
+          <include name="CheckdomainValue"/>
+          <include name="Checkinit_story_idValue"/>
+          <include name="Checkwriter_nameValue"/>
+          <include name="Checkdev_sourceValue"/>
+          <include name="Checktree_idValue"/>
+          <include name="tearDown"/>
+          <include name="Checkpage_urlValue"/>
+          <include name="CheckpidValue"/>
+          <include name="CheckfpValue"/>
+          <include name="CheckofcValue"/>
+          <include name="CheckussValue"/>
+          <include name="Checkcountry_nameValue"/>
+          <include name="CheckGMTValue"/>
+          <include name="Checkcurrent_blockValue"/>
+          <include name="getResults"/>
+        </methods>
+      </class> <!-- InnervoiceTestCases.CaptureAndParsingHarFileForPixPngIVTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="FoodMateTestCases.CaptureAndParsingHarFileForPixPngWFTest">
+        <methods>
+          <include name="Checkpage_typeValue"/>
+          <include name="Checkstory_idValue"/>
+          <include name="RecordHAR"/>
+          <include name="CheckadblockerValue"/>
+          <include name="CheckPBValue"/>
+          <include name="Checkclient_ipValue"/>
+          <include name="Checkcategory_peopleValue"/>
+          <include name="Checkvisit_blockValue"/>
+          <include name="Setup"/>
+          <include name="Checktotal_blocksValue"/>
+          <include name="Checkcountry_codeValue"/>
+          <include name="CheckdomainValue"/>
+          <include name="Checkgoogle_entitiesValue"/>
+          <include name="Checkreferral_domainValue"/>
+          <include name="CheckadPartnerValue"/>
+          <include name="CheckcityValue"/>
+          <include name="Checktotal_adsValue"/>
+          <include name="Checkcategory_idValue"/>
+          <include name="Checklanguage_EnglishValue"/>
+          <include name="Checkstory_tagsValue"/>
+          <include name="Checkwriter_idValue"/>
+          <include name="CheckofcValue"/>
+          <include name="Checkcountry_nameValue"/>
+          <include name="CheckfpValue"/>
+          <include name="CheckussValue"/>
+          <include name="CheckGMTValue"/>
+          <include name="Checkcurrent_blockValue"/>
+          <include name="getResults"/>
+          <include name="Checkinit_story_idValue"/>
+          <include name="Checkwriter_nameValue"/>
+          <include name="Checktree_idValue"/>
+          <include name="tearDown"/>
+          <include name="Checkdev_sourceValue"/>
+          <include name="CheckpidValue"/>
+          <include name="Checkpage_urlValue"/>
+          <include name="OpenGoogleappsHar_analyzer"/>
+        </methods>
+      </class> <!-- FoodMateTestCases.CaptureAndParsingHarFileForPixPngWFTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

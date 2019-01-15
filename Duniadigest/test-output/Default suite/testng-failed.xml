@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="DuniadigestTestCases.DuniadigestHomePageTestcasesTest">
+        <methods>
+          <include name="CheckMultiMediaCategories"/>
+          <include name="CheckThirdPostImage"/>
+          <include name="CheckFacebookLink"/>
+          <include name="getResults"/>
+          <include name="CheckQuizeFeedImage"/>
+          <include name="CheckFeaturedPostImage"/>
+          <include name="CheckInstaLink"/>
+          <include name="CheckMathaPachiCategories"/>
+          <include name="CheckSecondPostImage"/>
+          <include name="CheckLatestStoryAuthor"/>
+          <include name="CheckEatSleepReadReaptAuthor"/>
+          <include name="CheckTwitterLink"/>
+          <include name="tearDown"/>
+          <include name="CheckLatestStoryTitle"/>
+          <include name="CheckSecondPostAuthor"/>
+          <include name="CheckEatSleepReadReaptImage"/>
+          <include name="CheckFeaturedPostTitle"/>
+          <include name="CheckDharamParCharchaCategories"/>
+          <include name="CheckSiteLogo"/>
+          <include name="CheckFilmyDuniaCategories"/>
+          <include name="CheckThirdPostTitle"/>
+          <include name="CheckEatSleepReadReaptTitle"/>
+          <include name="CheckLifeCategories"/>
+          <include name="CheckNewsDigestCategories"/>
+          <include name="Setup"/>
+          <include name="CheckSecondPostTitle"/>
+          <include name="CheckQuizefeedTitle"/>
+          <include name="CheckThirdPostAuthor"/>
+          <include name="CheckQuizeFeedAuthor"/>
+          <include name="CheckSearchOption"/>
+          <include name="CheckDDVideo2"/>
+          <include name="CheckFeaturedPostAuthor"/>
+          <include name="CheckLatestStoryImage"/>
+          <include name="CheckYouTubeLink"/>
+          <include name="CheckKhelKhiladiCategories"/>
+          <include name="CheckDDVideo1"/>
+        </methods>
+      </class> <!-- DuniadigestTestCases.DuniadigestHomePageTestcasesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

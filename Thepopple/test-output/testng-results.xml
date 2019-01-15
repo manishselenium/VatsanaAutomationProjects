@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51294" started-at="2019-01-09T13:38:27Z" finished-at="2019-01-09T13:39:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51294" started-at="2019-01-09T13:38:27Z" finished-at="2019-01-09T13:39:18Z">
+      <class name="PoppleTestCases.StoryPageTestCasesTest">
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="7469" started-at="2019-01-09T13:38:19Z" finished-at="2019-01-09T13:38:27Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenStoryPage()" name="OpenStoryPage" duration-ms="44321" started-at="2019-01-09T13:38:27Z" finished-at="2019-01-09T13:39:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="44" started-at="2019-01-09T13:39:11Z" finished-at="2019-01-09T13:39:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: OpenStoryPage STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.OpenStoryPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAdvertisementFrame()" name="CheckAdvertisementFrame" duration-ms="78" started-at="2019-01-09T13:39:11Z" finished-at="2019-01-09T13:39:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:39:11Z" finished-at="2019-01-09T13:39:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAdvertisementFrame STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckAdvertisementFrame()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryFirstImage()" name="CheckStoryFirstImage" duration-ms="35" started-at="2019-01-09T13:39:11Z" finished-at="2019-01-09T13:39:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:39:11Z" finished-at="2019-01-09T13:39:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryFirstImage STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryFirstImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryAuthor()" name="CheckStoryAuthor" duration-ms="1084" started-at="2019-01-09T13:39:11Z" finished-at="2019-01-09T13:39:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:39:12Z" finished-at="2019-01-09T13:39:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryAuthor STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryTitle()" name="CheckStoryTitle" duration-ms="1336" started-at="2019-01-09T13:39:12Z" finished-at="2019-01-09T13:39:13Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:39:13Z" finished-at="2019-01-09T13:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryTitle STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryDesc()" name="CheckStoryDesc" duration-ms="1171" started-at="2019-01-09T13:39:13Z" finished-at="2019-01-09T13:39:15Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-09T13:39:15Z" finished-at="2019-01-09T13:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryDesc STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryDesc()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryShares()" name="CheckStoryShares" duration-ms="1043" started-at="2019-01-09T13:39:15Z" finished-at="2019-01-09T13:39:16Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:39:16Z" finished-at="2019-01-09T13:39:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryShares STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryShares()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryShareOptions()" name="CheckStoryShareOptions" duration-ms="1084" started-at="2019-01-09T13:39:16Z" finished-at="2019-01-09T13:39:17Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-09T13:39:17Z" finished-at="2019-01-09T13:39:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryShareOptions STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryShareOptions()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryContent()" name="CheckStoryContent" duration-ms="1049" started-at="2019-01-09T13:39:17Z" finished-at="2019-01-09T13:39:18Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:39:18Z" finished-at="2019-01-09T13:39:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryContent STATUS:SUCCESS METHOD:PoppleTestCases.StoryPageTestCasesTest.CheckStoryContent()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="2359" started-at="2019-01-09T13:39:18Z" finished-at="2019-01-09T13:39:20Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

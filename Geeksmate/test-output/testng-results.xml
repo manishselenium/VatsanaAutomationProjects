@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93887" started-at="2019-01-14T05:39:33Z" finished-at="2019-01-14T05:41:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93887" started-at="2019-01-14T05:39:33Z" finished-at="2019-01-14T05:41:07Z">
+      <class name="GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="Setup" is-config="true" duration-ms="8504" started-at="2019-01-14T05:39:25Z" finished-at="2019-01-14T05:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ClickHamburgerMenu()[pri:33, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="ClickHamburgerMenu" duration-ms="18662" started-at="2019-01-14T05:39:33Z" finished-at="2019-01-14T05:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickHamburgerMenu -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="12" started-at="2019-01-14T05:39:52Z" finished-at="2019-01-14T05:39:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickHamburgerMenu status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.ClickHamburgerMenu()[pri:33, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckNewsCata()[pri:34, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckNewsCata" duration-ms="1049" started-at="2019-01-14T05:39:52Z" finished-at="2019-01-14T05:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNewsCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:39:53Z" finished-at="2019-01-14T05:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckNewsCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckNewsCata()[pri:34, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckGadgetsCata()[pri:35, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckGadgetsCata" duration-ms="1032" started-at="2019-01-14T05:39:53Z" finished-at="2019-01-14T05:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGadgetsCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:39:54Z" finished-at="2019-01-14T05:39:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckGadgetsCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckGadgetsCata()[pri:35, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckGadgetsSubCata()[pri:36, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckGadgetsSubCata" duration-ms="1032" started-at="2019-01-14T05:39:54Z" finished-at="2019-01-14T05:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGadgetsSubCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-14T05:39:55Z" finished-at="2019-01-14T05:39:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckGadgetsSubCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckGadgetsSubCata()[pri:36, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckReviewsCata()[pri:37, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckReviewsCata" duration-ms="1029" started-at="2019-01-14T05:39:55Z" finished-at="2019-01-14T05:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckReviewsCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:39:56Z" finished-at="2019-01-14T05:39:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckReviewsCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckReviewsCata()[pri:37, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="BestInternetReadsCata()[pri:39, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="BestInternetReadsCata" duration-ms="1028" started-at="2019-01-14T05:39:56Z" finished-at="2019-01-14T05:39:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BestInternetReadsCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:39:57Z" finished-at="2019-01-14T05:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BestInternetReadsCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.BestInternetReadsCata()[pri:39, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckInternetReadsSubCata()[pri:40, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckInternetReadsSubCata" duration-ms="1028" started-at="2019-01-14T05:39:57Z" finished-at="2019-01-14T05:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInternetReadsSubCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-14T05:39:58Z" finished-at="2019-01-14T05:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckInternetReadsSubCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckInternetReadsSubCata()[pri:40, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckVideosCata()[pri:41, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckVideosCata" duration-ms="1025" started-at="2019-01-14T05:39:58Z" finished-at="2019-01-14T05:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckVideosCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:39:59Z" finished-at="2019-01-14T05:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckVideosCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckVideosCata()[pri:41, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckQUIZCata()[pri:42, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckQUIZCata" duration-ms="1031" started-at="2019-01-14T05:39:59Z" finished-at="2019-01-14T05:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQUIZCata -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:00Z" finished-at="2019-01-14T05:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckQUIZCata status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckQUIZCata()[pri:42, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckNewsPage()[pri:43, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckNewsPage" duration-ms="4428" started-at="2019-01-14T05:40:00Z" finished-at="2019-01-14T05:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNewsPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:05Z" finished-at="2019-01-14T05:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckNewsPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckNewsPage()[pri:43, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckGadgetsPage()[pri:44, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckGadgetsPage" duration-ms="4123" started-at="2019-01-14T05:40:05Z" finished-at="2019-01-14T05:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGadgetsPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="5" started-at="2019-01-14T05:40:09Z" finished-at="2019-01-14T05:40:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckGadgetsPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckGadgetsPage()[pri:44, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSmartPhonesPage()[pri:45, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckSmartPhonesPage" duration-ms="4125" started-at="2019-01-14T05:40:09Z" finished-at="2019-01-14T05:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSmartPhonesPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="5" started-at="2019-01-14T05:40:13Z" finished-at="2019-01-14T05:40:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSmartPhonesPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckSmartPhonesPage()[pri:45, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckLaptopPage()[pri:46, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckLaptopPage" duration-ms="3699" started-at="2019-01-14T05:40:13Z" finished-at="2019-01-14T05:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLaptopPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:17Z" finished-at="2019-01-14T05:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckLaptopPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckLaptopPage()[pri:46, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckCamerasPage()[pri:47, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckCamerasPage" duration-ms="3784" started-at="2019-01-14T05:40:17Z" finished-at="2019-01-14T05:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCamerasPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:20Z" finished-at="2019-01-14T05:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCamerasPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckCamerasPage()[pri:47, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckMorePage()[pri:48, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckMorePage" duration-ms="3823" started-at="2019-01-14T05:40:20Z" finished-at="2019-01-14T05:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMorePage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-14T05:40:24Z" finished-at="2019-01-14T05:40:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckMorePage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckMorePage()[pri:48, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckReviewsPage()[pri:49, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckReviewsPage" duration-ms="4119" started-at="2019-01-14T05:40:24Z" finished-at="2019-01-14T05:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckReviewsPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-14T05:40:28Z" finished-at="2019-01-14T05:40:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckReviewsPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckReviewsPage()[pri:49, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckInternetReadsPage()[pri:51, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckInternetReadsPage" duration-ms="3855" started-at="2019-01-14T05:40:28Z" finished-at="2019-01-14T05:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckInternetReadsPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:32Z" finished-at="2019-01-14T05:40:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckInternetReadsPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckInternetReadsPage()[pri:51, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckHowToPage()[pri:60, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckHowToPage" duration-ms="5237" started-at="2019-01-14T05:40:32Z" finished-at="2019-01-14T05:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHowToPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-14T05:40:37Z" finished-at="2019-01-14T05:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckHowToPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckHowToPage()[pri:60, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckGamingPage()[pri:61, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckGamingPage" duration-ms="4250" started-at="2019-01-14T05:40:37Z" finished-at="2019-01-14T05:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGamingPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:42Z" finished-at="2019-01-14T05:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckGamingPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckGamingPage()[pri:61, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSciencePage()[pri:63, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckSciencePage" duration-ms="4346" started-at="2019-01-14T05:40:42Z" finished-at="2019-01-14T05:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSciencePage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:46Z" finished-at="2019-01-14T05:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSciencePage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckSciencePage()[pri:63, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckMoviesAndTVPage()[pri:64, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckMoviesAndTVPage" duration-ms="3586" started-at="2019-01-14T05:40:46Z" finished-at="2019-01-14T05:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckMoviesAndTVPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:50Z" finished-at="2019-01-14T05:40:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckMoviesAndTVPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckMoviesAndTVPage()[pri:64, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckPCSPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckPCSPage" duration-ms="4170" started-at="2019-01-14T05:40:50Z" finished-at="2019-01-14T05:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPCSPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:54Z" finished-at="2019-01-14T05:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckPCSPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckPCSPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckQUIZPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckQUIZPage" duration-ms="4058" started-at="2019-01-14T05:40:54Z" finished-at="2019-01-14T05:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQUIZPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:40:58Z" finished-at="2019-01-14T05:40:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckQUIZPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckQUIZPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckVideosPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckVideosPage" duration-ms="5371" started-at="2019-01-14T05:40:58Z" finished-at="2019-01-14T05:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckVideosPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:41:03Z" finished-at="2019-01-14T05:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckVideosPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckVideosPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckappsPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="CheckappsPage" duration-ms="3872" started-at="2019-01-14T05:41:03Z" finished-at="2019-01-14T05:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckappsPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-14T05:41:07Z" finished-at="2019-01-14T05:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckappsPage status=SUCCESS method=GeeksmateCatagoiesTestCasesTest.CheckappsPage()[pri:65, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest@6d3af739]" name="tearDown" is-config="true" duration-ms="2093" started-at="2019-01-14T05:41:07Z" finished-at="2019-01-14T05:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GeeksmateTestCases.GeeksmateCatagoiesTestCasesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="wittyfeed-Vostro-3558" name="HARreader.HARreader.guru99" tests="1" failures="0" timestamp="15 Jan 2019 12:01:50 GMT" time="39.047" errors="0">
+  <testcase name="RecordHAR" time="39.035" classname="HARreader.HARreader.guru99"/>
+</testsuite>

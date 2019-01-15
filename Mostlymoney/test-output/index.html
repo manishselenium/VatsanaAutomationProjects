@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckGMTValue">CheckGMTValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckPBValue">CheckPBValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckadPartnerValue">CheckadPartnerValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckadblockerValue">CheckadblockerValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkcategory_idValue">Checkcategory_idValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkcategory_peopleValue">Checkcategory_peopleValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckcityValue">CheckcityValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkclient_ipValue">Checkclient_ipValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkcountry_codeValue">Checkcountry_codeValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkcountry_nameValue">Checkcountry_nameValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkcurrent_blockValue">Checkcurrent_blockValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkdev_sourceValue">Checkdev_sourceValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckdomainValue">CheckdomainValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckfpValue">CheckfpValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkgoogle_entitiesValue">Checkgoogle_entitiesValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkinit_story_idValue">Checkinit_story_idValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checklanguage_EnglishValue">Checklanguage_EnglishValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckofcValue">CheckofcValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkpage_typeValue">Checkpage_typeValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkpage_urlValue">Checkpage_urlValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckpidValue">CheckpidValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkreferral_domainValue">Checkreferral_domainValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkstory_idValue">Checkstory_idValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkstory_tagsValue">Checkstory_tagsValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checktotal_adsValue">Checktotal_adsValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checktotal_blocksValue">Checktotal_blocksValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checktree_idValue">Checktree_idValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="CheckussValue">CheckussValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkvisit_blockValue">Checkvisit_blockValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkwriter_idValue">Checkwriter_idValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="Checkwriter_nameValue">Checkwriter_nameValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest" hash-for-method="OpenGoogleappsHar_analyzer">OpenGoogleappsHar_analyzer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckGMTValue">
+                  </a> <!-- CheckGMTValue -->
+                  <span class="method-name">CheckGMTValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckPBValue">
+                  </a> <!-- CheckPBValue -->
+                  <span class="method-name">CheckPBValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckadPartnerValue">
+                  </a> <!-- CheckadPartnerValue -->
+                  <span class="method-name">CheckadPartnerValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckadblockerValue">
+                  </a> <!-- CheckadblockerValue -->
+                  <span class="method-name">CheckadblockerValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkcategory_idValue">
+                  </a> <!-- Checkcategory_idValue -->
+                  <span class="method-name">Checkcategory_idValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkcategory_peopleValue">
+                  </a> <!-- Checkcategory_peopleValue -->
+                  <span class="method-name">Checkcategory_peopleValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckcityValue">
+                  </a> <!-- CheckcityValue -->
+                  <span class="method-name">CheckcityValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkclient_ipValue">
+                  </a> <!-- Checkclient_ipValue -->
+                  <span class="method-name">Checkclient_ipValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkcountry_codeValue">
+                  </a> <!-- Checkcountry_codeValue -->
+                  <span class="method-name">Checkcountry_codeValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkcountry_nameValue">
+                  </a> <!-- Checkcountry_nameValue -->
+                  <span class="method-name">Checkcountry_nameValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkcurrent_blockValue">
+                  </a> <!-- Checkcurrent_blockValue -->
+                  <span class="method-name">Checkcurrent_blockValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkdev_sourceValue">
+                  </a> <!-- Checkdev_sourceValue -->
+                  <span class="method-name">Checkdev_sourceValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckdomainValue">
+                  </a> <!-- CheckdomainValue -->
+                  <span class="method-name">CheckdomainValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckfpValue">
+                  </a> <!-- CheckfpValue -->
+                  <span class="method-name">CheckfpValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkgoogle_entitiesValue">
+                  </a> <!-- Checkgoogle_entitiesValue -->
+                  <span class="method-name">Checkgoogle_entitiesValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkinit_story_idValue">
+                  </a> <!-- Checkinit_story_idValue -->
+                  <span class="method-name">Checkinit_story_idValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checklanguage_EnglishValue">
+                  </a> <!-- Checklanguage_EnglishValue -->
+                  <span class="method-name">Checklanguage_EnglishValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckofcValue">
+                  </a> <!-- CheckofcValue -->
+                  <span class="method-name">CheckofcValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkpage_typeValue">
+                  </a> <!-- Checkpage_typeValue -->
+                  <span class="method-name">Checkpage_typeValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkpage_urlValue">
+                  </a> <!-- Checkpage_urlValue -->
+                  <span class="method-name">Checkpage_urlValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckpidValue">
+                  </a> <!-- CheckpidValue -->
+                  <span class="method-name">CheckpidValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkreferral_domainValue">
+                  </a> <!-- Checkreferral_domainValue -->
+                  <span class="method-name">Checkreferral_domainValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkstory_idValue">
+                  </a> <!-- Checkstory_idValue -->
+                  <span class="method-name">Checkstory_idValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkstory_tagsValue">
+                  </a> <!-- Checkstory_tagsValue -->
+                  <span class="method-name">Checkstory_tagsValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checktotal_adsValue">
+                  </a> <!-- Checktotal_adsValue -->
+                  <span class="method-name">Checktotal_adsValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checktotal_blocksValue">
+                  </a> <!-- Checktotal_blocksValue -->
+                  <span class="method-name">Checktotal_blocksValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checktree_idValue">
+                  </a> <!-- Checktree_idValue -->
+                  <span class="method-name">Checktree_idValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckussValue">
+                  </a> <!-- CheckussValue -->
+                  <span class="method-name">CheckussValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkvisit_blockValue">
+                  </a> <!-- Checkvisit_blockValue -->
+                  <span class="method-name">Checkvisit_blockValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkwriter_idValue">
+                  </a> <!-- Checkwriter_idValue -->
+                  <span class="method-name">Checkwriter_idValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkwriter_nameValue">
+                  </a> <!-- Checkwriter_nameValue -->
+                  <span class="method-name">Checkwriter_nameValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenGoogleappsHar_analyzer">
+                  </a> <!-- OpenGoogleappsHar_analyzer -->
+                  <span class="method-name">OpenGoogleappsHar_analyzer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/tmp/testng-eclipse-1360730857/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'OpenGoogleappsHar_analyzer')
+data.setCell(0, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(0, 3, 9983);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CheckGMTValue')
+data.setCell(1, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(1, 3, 45);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Checkcategory_peopleValue')
+data.setCell(2, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(2, 3, 44);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Checkcurrent_blockValue')
+data.setCell(3, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(3, 3, 41);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckpidValue')
+data.setCell(4, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(4, 3, 35);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Checkinit_story_idValue')
+data.setCell(5, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(5, 3, 35);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Checkreferral_domainValue')
+data.setCell(6, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(6, 3, 34);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'CheckfpValue')
+data.setCell(7, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(7, 3, 33);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Checkwriter_idValue')
+data.setCell(8, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(8, 3, 33);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'CheckussValue')
+data.setCell(9, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(9, 3, 32);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Checkstory_idValue')
+data.setCell(10, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(10, 3, 30);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Checkclient_ipValue')
+data.setCell(11, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(11, 3, 29);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Checkcountry_nameValue')
+data.setCell(12, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(12, 3, 29);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CheckcityValue')
+data.setCell(13, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(13, 3, 29);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Checkcategory_idValue')
+data.setCell(14, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(14, 3, 28);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Checklanguage_EnglishValue')
+data.setCell(15, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(15, 3, 28);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Checkcountry_codeValue')
+data.setCell(16, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(16, 3, 28);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Checkpage_urlValue')
+data.setCell(17, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(17, 3, 27);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Checkwriter_nameValue')
+data.setCell(18, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(18, 3, 27);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Checkvisit_blockValue')
+data.setCell(19, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(19, 3, 27);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Checkpage_typeValue')
+data.setCell(20, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(20, 3, 27);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Checkgoogle_entitiesValue')
+data.setCell(21, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(21, 3, 27);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Checktotal_adsValue')
+data.setCell(22, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(22, 3, 26);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Checktotal_blocksValue')
+data.setCell(23, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(23, 3, 25);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Checkdev_sourceValue')
+data.setCell(24, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(24, 3, 25);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Checktree_idValue')
+data.setCell(25, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(25, 3, 25);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'CheckadPartnerValue')
+data.setCell(26, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(26, 3, 24);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'CheckdomainValue')
+data.setCell(27, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(27, 3, 23);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'CheckofcValue')
+data.setCell(28, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(28, 3, 23);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'CheckadblockerValue')
+data.setCell(29, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(29, 3, 23);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'CheckPBValue')
+data.setCell(30, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(30, 3, 22);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Checkstory_tagsValue')
+data.setCell(31, 2, 'MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest')
+data.setCell(31, 3, 22);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MostlymoneyTestCases.CaptureAndParsingHarFileForPixPngMMTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">RecordHAR</span>
+                <span class="method-start">6946 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">OpenGoogleappsHar_analyzer</span>
+                <span class="method-start">57392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=OpenGoogleappsHar_analyzer status=SUCCESS method=CaptureAndParsingHarFileForPixPngM...)</span>
+                <span class="method-start">67377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckGMTValue</span>
+                <span class="method-start">67394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckGMTValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.CheckGM...)</span>
+                <span class="method-start">67440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkvisit_blockValue</span>
+                <span class="method-start">67441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkvisit_blockValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest...)</span>
+                <span class="method-start">67469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkcountry_codeValue</span>
+                <span class="method-start">67470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkcountry_codeValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTes...)</span>
+                <span class="method-start">67499 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checklanguage_EnglishValue</span>
+                <span class="method-start">67500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checklanguage_EnglishValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngM...)</span>
+                <span class="method-start">67529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkcategory_peopleValue</span>
+                <span class="method-start">67530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkcategory_peopleValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMM...)</span>
+                <span class="method-start">67575 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkwriter_nameValue</span>
+                <span class="method-start">67577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkwriter_nameValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest...)</span>
+                <span class="method-start">67605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkwriter_idValue</span>
+                <span class="method-start">67606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkwriter_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.C...)</span>
+                <span class="method-start">67640 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkcategory_idValue</span>
+                <span class="method-start">67641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkcategory_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest...)</span>
+                <span class="method-start">67670 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkstory_idValue</span>
+                <span class="method-start">67671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkstory_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Ch...)</span>
+                <span class="method-start">67702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkgoogle_entitiesValue</span>
+                <span class="method-start">67703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkgoogle_entitiesValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMM...)</span>
+                <span class="method-start">67731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkpage_typeValue</span>
+                <span class="method-start">67732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkpage_typeValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.C...)</span>
+                <span class="method-start">67760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckcityValue</span>
+                <span class="method-start">67763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckcityValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Checkc...)</span>
+                <span class="method-start">67793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkcountry_nameValue</span>
+                <span class="method-start">67795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkcountry_nameValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTes...)</span>
+                <span class="method-start">67825 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckfpValue</span>
+                <span class="method-start">67827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckfpValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.CheckfpV...)</span>
+                <span class="method-start">67860 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkpage_urlValue</span>
+                <span class="method-start">67861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkpage_urlValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Ch...)</span>
+                <span class="method-start">67889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkclient_ipValue</span>
+                <span class="method-start">67891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkclient_ipValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.C...)</span>
+                <span class="method-start">67921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkreferral_domainValue</span>
+                <span class="method-start">67923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkreferral_domainValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMM...)</span>
+                <span class="method-start">67958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkdev_sourceValue</span>
+                <span class="method-start">67960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkdev_sourceValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest....)</span>
+                <span class="method-start">67986 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckPBValue</span>
+                <span class="method-start">67987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckPBValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.CheckPBV...)</span>
+                <span class="method-start">68010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkstory_tagsValue</span>
+                <span class="method-start">68011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkstory_tagsValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest....)</span>
+                <span class="method-start">68035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkcurrent_blockValue</span>
+                <span class="method-start">68036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkcurrent_blockValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTe...)</span>
+                <span class="method-start">68078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checktotal_blocksValue</span>
+                <span class="method-start">68080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checktotal_blocksValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTes...)</span>
+                <span class="method-start">68106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckdomainValue</span>
+                <span class="method-start">68107 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckdomainValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Chec...)</span>
+                <span class="method-start">68131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckadPartnerValue</span>
+                <span class="method-start">68133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckadPartnerValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.C...)</span>
+                <span class="method-start">68157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckadblockerValue</span>
+                <span class="method-start">68159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckadblockerValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.C...)</span>
+                <span class="method-start">68183 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckofcValue</span>
+                <span class="method-start">68184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckofcValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Checkof...)</span>
+                <span class="method-start">68208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checktotal_adsValue</span>
+                <span class="method-start">68210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checktotal_adsValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.C...)</span>
+                <span class="method-start">68236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checktree_idValue</span>
+                <span class="method-start">68239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checktree_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Che...)</span>
+                <span class="method-start">68265 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckussValue</span>
+                <span class="method-start">68266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckussValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Checkus...)</span>
+                <span class="method-start">68299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">CheckpidValue</span>
+                <span class="method-start">68300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=CheckpidValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTest.Checkpi...)</span>
+                <span class="method-start">68336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Checkinit_story_idValue</span>
+                <span class="method-start">68337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResults([TestResult name=Checkinit_story_idValue status=SUCCESS method=CaptureAndParsingHarFileForPixPngMMTe...)</span>
+                <span class="method-start">68373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68408 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

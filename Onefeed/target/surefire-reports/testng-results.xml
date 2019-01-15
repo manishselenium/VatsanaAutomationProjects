@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="130" passed="130">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="444348" started-at="2019-01-07T18:44:46Z" finished-at="2019-01-07T18:52:11Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="444348" started-at="2019-01-07T18:44:46Z" finished-at="2019-01-07T18:52:11Z">
+      <class name="DuniadigestTestCases.DuniadigestUserProfileTestCasesTest">
+        <test-method status="PASS" signature="ClickAuthorName()" name="ClickAuthorName" duration-ms="9450" started-at="2019-01-07T18:51:56Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickAuthorName STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.ClickAuthorName()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckBackgroundImage()" name="CheckBackgroundImage" duration-ms="20" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckBackgroundImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckBackgroundImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAuthorName()" name="CheckAuthorName" duration-ms="15" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAuthorName STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckAuthorName()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAuthorImage()" name="CheckAuthorImage" duration-ms="12" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAuthorImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckAuthorImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckWriterName()" name="CheckWriterName" duration-ms="10" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckWriterName STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckWriterName()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckEditor()" name="CheckEditor" duration-ms="10" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEditor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckEditor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckProfileDesc()" name="CheckProfileDesc" duration-ms="12" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckProfileDesc STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckProfileDesc()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDontMissThisStory()" name="CheckDontMissThisStory" duration-ms="10" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDontMissThisStory STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.CheckDontMissThisStory()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="LatestStories()" name="LatestStories" duration-ms="10" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: LatestStories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestUserProfileTestCasesTest.LatestStories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestHomePageTestcasesTest">
+        <test-method status="PASS" signature="CheckSearchOption()" name="CheckSearchOption" duration-ms="4990" started-at="2019-01-07T18:50:44Z" finished-at="2019-01-07T18:50:49Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSiteLogo()" name="CheckSiteLogo" duration-ms="7" started-at="2019-01-07T18:50:49Z" finished-at="2019-01-07T18:50:49Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:49Z" finished-at="2019-01-07T18:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchOption STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckSearchOption()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:49Z" finished-at="2019-01-07T18:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSiteLogo STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckSiteLogo()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckNewsDigestCategories()" name="CheckNewsDigestCategories" duration-ms="6" started-at="2019-01-07T18:50:49Z" finished-at="2019-01-07T18:50:49Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:49Z" finished-at="2019-01-07T18:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckNewsDigestCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckNewsDigestCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLifeCategories()" name="CheckLifeCategories" duration-ms="5009" started-at="2019-01-07T18:50:49Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckFilmyDuniaCategories()" name="CheckFilmyDuniaCategories" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLifeCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckLifeCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFilmyDuniaCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckFilmyDuniaCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDharamParCharchaCategories()" name="CheckDharamParCharchaCategories" duration-ms="8" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDharamParCharchaCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckDharamParCharchaCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckKhelKhiladiCategories()" name="CheckKhelKhiladiCategories" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckKhelKhiladiCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckKhelKhiladiCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckMathaPachiCategories()" name="CheckMathaPachiCategories" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMathaPachiCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckMathaPachiCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckMultiMediaCategories()" name="CheckMultiMediaCategories" duration-ms="8" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMultiMediaCategories STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckMultiMediaCategories()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckInstaLink()" name="CheckInstaLink" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckTwitterLink()" name="CheckTwitterLink" duration-ms="9" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckInstaLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckInstaLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTwitterLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckTwitterLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFacebookLink()" name="CheckFacebookLink" duration-ms="6" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFacebookLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckFacebookLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckYouTubeLink()" name="CheckYouTubeLink" duration-ms="6" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckYouTubeLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckYouTubeLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostImage()" name="CheckFeaturedPostImage" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFeaturedPostImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckFeaturedPostImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostTitle()" name="CheckFeaturedPostTitle" duration-ms="8" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFeaturedPostTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckFeaturedPostTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFeaturedPostAuthor()" name="CheckFeaturedPostAuthor" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFeaturedPostAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckFeaturedPostAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostImage()" name="CheckSecondPostImage" duration-ms="12" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostTitle()" name="CheckSecondPostTitle" duration-ms="9" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSecondPostImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckSecondPostImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSecondPostTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckSecondPostTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSecondPostAuthor()" name="CheckSecondPostAuthor" duration-ms="7" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostImage()" name="CheckThirdPostImage" duration-ms="8" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSecondPostAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckSecondPostAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckThirdPostImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckThirdPostImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostTitle()" name="CheckThirdPostTitle" duration-ms="8" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckThirdPostTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckThirdPostTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckThirdPostAuthor()" name="CheckThirdPostAuthor" duration-ms="6" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckThirdPostAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckThirdPostAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryImage()" name="CheckLatestStoryImage" duration-ms="1023" started-at="2019-01-07T18:50:54Z" finished-at="2019-01-07T18:50:55Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:55Z" finished-at="2019-01-07T18:50:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLatestStoryImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckLatestStoryImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryTitle()" name="CheckLatestStoryTitle" duration-ms="1229" started-at="2019-01-07T18:50:55Z" finished-at="2019-01-07T18:50:56Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckLatestStoryAuthor()" name="CheckLatestStoryAuthor" duration-ms="1027" started-at="2019-01-07T18:50:56Z" finished-at="2019-01-07T18:50:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:56Z" finished-at="2019-01-07T18:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLatestStoryTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckLatestStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:57Z" finished-at="2019-01-07T18:50:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLatestStoryAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckLatestStoryAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDDVideo1()" name="CheckDDVideo1" duration-ms="1022" started-at="2019-01-07T18:50:57Z" finished-at="2019-01-07T18:50:58Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckDDVideo2()" name="CheckDDVideo2" duration-ms="1020" started-at="2019-01-07T18:50:58Z" finished-at="2019-01-07T18:50:59Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:58Z" finished-at="2019-01-07T18:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDDVideo1 STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckDDVideo1()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:59Z" finished-at="2019-01-07T18:50:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDDVideo2 STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckDDVideo2()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizeFeedImage()" name="CheckQuizeFeedImage" duration-ms="1023" started-at="2019-01-07T18:50:59Z" finished-at="2019-01-07T18:51:00Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:00Z" finished-at="2019-01-07T18:51:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizeFeedImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckQuizeFeedImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizefeedTitle()" name="CheckQuizefeedTitle" duration-ms="1025" started-at="2019-01-07T18:51:00Z" finished-at="2019-01-07T18:51:01Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:01Z" finished-at="2019-01-07T18:51:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizefeedTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckQuizefeedTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckQuizeFeedAuthor()" name="CheckQuizeFeedAuthor" duration-ms="1024" started-at="2019-01-07T18:51:01Z" finished-at="2019-01-07T18:51:02Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptImage()" name="CheckEatSleepReadReaptImage" duration-ms="1022" started-at="2019-01-07T18:51:02Z" finished-at="2019-01-07T18:51:03Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:02Z" finished-at="2019-01-07T18:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckQuizeFeedAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckQuizeFeedAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptTitle()" name="CheckEatSleepReadReaptTitle" duration-ms="1021" started-at="2019-01-07T18:51:03Z" finished-at="2019-01-07T18:51:04Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:03Z" finished-at="2019-01-07T18:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEatSleepReadReaptImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckEatSleepReadReaptImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckEatSleepReadReaptAuthor()" name="CheckEatSleepReadReaptAuthor" duration-ms="1024" started-at="2019-01-07T18:51:04Z" finished-at="2019-01-07T18:51:05Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:04Z" finished-at="2019-01-07T18:51:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEatSleepReadReaptTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckEatSleepReadReaptTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:05Z" finished-at="2019-01-07T18:51:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckEatSleepReadReaptAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestHomePageTestcasesTest.CheckEatSleepReadReaptAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest">
+        <test-method status="PASS" signature="RecordHAR()" name="RecordHAR" is-config="true" duration-ms="48813" started-at="2019-01-07T18:44:46Z" finished-at="2019-01-07T18:45:35Z">
+        </test-method>
+        <test-method status="PASS" signature="OpenGoogleappsHar_analyzer()" name="OpenGoogleappsHar_analyzer" duration-ms="14324" started-at="2019-01-07T18:45:35Z" finished-at="2019-01-07T18:45:49Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="26" started-at="2019-01-07T18:45:49Z" finished-at="2019-01-07T18:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: OpenGoogleappsHar_analyzer STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.OpenGoogleappsHar_analyzer()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckGMTValue()" name="CheckGMTValue" duration-ms="58" started-at="2019-01-07T18:45:49Z" finished-at="2019-01-07T18:45:49Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkvisit_blockValue()" name="Checkvisit_blockValue" duration-ms="25" started-at="2019-01-07T18:45:49Z" finished-at="2019-01-07T18:45:49Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:49Z" finished-at="2019-01-07T18:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckGMTValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckGMTValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcountry_codeValue()" name="Checkcountry_codeValue" duration-ms="28" started-at="2019-01-07T18:45:49Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:49Z" finished-at="2019-01-07T18:45:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkvisit_blockValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkvisit_blockValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcountry_codeValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkcountry_codeValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checklanguage_EnglishValue()" name="Checklanguage_EnglishValue" duration-ms="22" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checklanguage_EnglishValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checklanguage_EnglishValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcategory_peopleValue()" name="Checkcategory_peopleValue" duration-ms="33" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkwriter_nameValue()" name="Checkwriter_nameValue" duration-ms="28" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcategory_peopleValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkcategory_peopleValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkwriter_nameValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkwriter_nameValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkwriter_idValue()" name="Checkwriter_idValue" duration-ms="25" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkwriter_idValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkwriter_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcategory_idValue()" name="Checkcategory_idValue" duration-ms="28" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcategory_idValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkcategory_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkstory_idValue()" name="Checkstory_idValue" duration-ms="21" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkstory_idValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkstory_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkgoogle_entitiesValue()" name="Checkgoogle_entitiesValue" duration-ms="25" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkgoogle_entitiesValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkgoogle_entitiesValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkpage_typeValue()" name="Checkpage_typeValue" duration-ms="27" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkpage_typeValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkpage_typeValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckcityValue()" name="CheckcityValue" duration-ms="24" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkcountry_nameValue()" name="Checkcountry_nameValue" duration-ms="25" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckcityValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckcityValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcountry_nameValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkcountry_nameValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckfpValue()" name="CheckfpValue" duration-ms="25" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckfpValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckfpValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkpage_urlValue()" name="Checkpage_urlValue" duration-ms="23" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkpage_urlValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkpage_urlValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkclient_ipValue()" name="Checkclient_ipValue" duration-ms="29" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkreferral_domainValue()" name="Checkreferral_domainValue" duration-ms="21" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkclient_ipValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkclient_ipValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkreferral_domainValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkreferral_domainValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkdev_sourceValue()" name="Checkdev_sourceValue" duration-ms="22" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkdev_sourceValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkdev_sourceValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPBValue()" name="CheckPBValue" duration-ms="23" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="Checkstory_tagsValue()" name="Checkstory_tagsValue" duration-ms="21" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPBValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckPBValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkstory_tagsValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkstory_tagsValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkcurrent_blockValue()" name="Checkcurrent_blockValue" duration-ms="26" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkcurrent_blockValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkcurrent_blockValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checktotal_blocksValue()" name="Checktotal_blocksValue" duration-ms="25" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checktotal_blocksValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checktotal_blocksValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckdomainValue()" name="CheckdomainValue" duration-ms="23" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckdomainValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckdomainValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckadPartnerValue()" name="CheckadPartnerValue" duration-ms="22" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckadPartnerValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckadPartnerValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckadblockerValue()" name="CheckadblockerValue" duration-ms="32" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckofcValue()" name="CheckofcValue" duration-ms="25" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckadblockerValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckadblockerValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckofcValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckofcValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checktotal_adsValue()" name="Checktotal_adsValue" duration-ms="22" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checktotal_adsValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checktotal_adsValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checktree_idValue()" name="Checktree_idValue" duration-ms="28" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckussValue()" name="CheckussValue" duration-ms="33" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checktree_idValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checktree_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckussValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckussValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckpidValue()" name="CheckpidValue" duration-ms="33" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckpidValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.CheckpidValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="Checkinit_story_idValue()" name="Checkinit_story_idValue" duration-ms="30" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Checkinit_story_idValue STATUS:SUCCESS METHOD:DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest.Checkinit_story_idValue()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestSearchPageTestCasesTest">
+        <test-method status="PASS" signature="ClickSearchOption()" name="ClickSearchOption" duration-ms="10946" started-at="2019-01-07T18:51:05Z" finished-at="2019-01-07T18:51:16Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchHeader()" name="CheckSearchHeader" duration-ms="16" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickSearchOption STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestSearchPageTestCasesTest.ClickSearchOption()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchHeader STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestSearchPageTestCasesTest.CheckSearchHeader()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchedStoryImage()" name="CheckSearchedStoryImage" duration-ms="12" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchedStoryTitle()" name="CheckSearchedStoryTitle" duration-ms="20" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchedStoryImage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestSearchPageTestCasesTest.CheckSearchedStoryImage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchedStoryTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestSearchPageTestCasesTest.CheckSearchedStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestTagstestcasesTest">
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="8883" started-at="2019-01-07T18:44:37Z" finished-at="2019-01-07T18:44:46Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchOption()" name="CheckSearchOption" duration-ms="5227" started-at="2019-01-07T18:52:05Z" finished-at="2019-01-07T18:52:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:11Z" finished-at="2019-01-07T18:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchOption STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestTagstestcasesTest.CheckSearchOption()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSearchTags()" name="CheckSearchTags" duration-ms="8" started-at="2019-01-07T18:52:11Z" finished-at="2019-01-07T18:52:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:52:11Z" finished-at="2019-01-07T18:52:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSearchTags STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestTagstestcasesTest.CheckSearchTags()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1432" started-at="2019-01-07T18:52:11Z" finished-at="2019-01-07T18:52:12Z">
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest">
+        <test-method status="PASS" signature="ClickHamburgerMenu()" name="ClickHamburgerMenu" duration-ms="5052" started-at="2019-01-07T18:50:26Z" finished-at="2019-01-07T18:50:31Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckAbutUsLink()" name="CheckAbutUsLink" duration-ms="13" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickHamburgerMenu STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.ClickHamburgerMenu()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAbutUsLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckAbutUsLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckTermsOfUseLink()" name="CheckTermsOfUseLink" duration-ms="11" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTermsOfUseLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckTermsOfUseLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPrivacyPolicyLink()" name="CheckPrivacyPolicyLink" duration-ms="10" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPrivacyPolicyLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckPrivacyPolicyLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckCantactUsLink()" name="CheckCantactUsLink" duration-ms="15" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckCantactUsLink STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckCantactUsLink()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckAbutUsPage()" name="CheckAbutUsPage" duration-ms="4305" started-at="2019-01-07T18:50:31Z" finished-at="2019-01-07T18:50:36Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckTermsOfUsePage()" name="CheckTermsOfUsePage" duration-ms="4176" started-at="2019-01-07T18:50:36Z" finished-at="2019-01-07T18:50:40Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:36Z" finished-at="2019-01-07T18:50:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckAbutUsPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckAbutUsPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:40Z" finished-at="2019-01-07T18:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTermsOfUsePage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckTermsOfUsePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckPrivacyPolicyPage()" name="CheckPrivacyPolicyPage" duration-ms="4082" started-at="2019-01-07T18:50:40Z" finished-at="2019-01-07T18:50:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:44Z" finished-at="2019-01-07T18:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckPrivacyPolicyPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckPrivacyPolicyPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckCantactUsPage()" name="CheckCantactUsPage" duration-ms="24" started-at="2019-01-07T18:50:44Z" finished-at="2019-01-07T18:50:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:44Z" finished-at="2019-01-07T18:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckCantactUsPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest.CheckCantactUsPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest">
+        <test-method status="PASS" signature="ClickHamburgerMenu()" name="ClickHamburgerMenu" duration-ms="16218" started-at="2019-01-07T18:45:50Z" finished-at="2019-01-07T18:46:06Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:06Z" finished-at="2019-01-07T18:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: ClickHamburgerMenu STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.ClickHamburgerMenu()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckNewsDigest()" name="CheckNewsDigest" duration-ms="1037" started-at="2019-01-07T18:46:06Z" finished-at="2019-01-07T18:46:08Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:08Z" finished-at="2019-01-07T18:46:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckNewsDigest STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckNewsDigest()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckNewsDigestSubCata()" name="CheckNewsDigestSubCata" duration-ms="1028" started-at="2019-01-07T18:46:08Z" finished-at="2019-01-07T18:46:09Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:09Z" finished-at="2019-01-07T18:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckNewsDigestSubCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckNewsDigestSubCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLifeCata()" name="CheckLifeCata" duration-ms="1030" started-at="2019-01-07T18:46:09Z" finished-at="2019-01-07T18:46:10Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:10Z" finished-at="2019-01-07T18:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLifeCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckLifeCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLifeSubCata()" name="CheckLifeSubCata" duration-ms="1026" started-at="2019-01-07T18:46:10Z" finished-at="2019-01-07T18:46:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:11Z" finished-at="2019-01-07T18:46:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLifeSubCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckLifeSubCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFilmyDuniaCata()" name="CheckFilmyDuniaCata" duration-ms="1025" started-at="2019-01-07T18:46:11Z" finished-at="2019-01-07T18:46:12Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:12Z" finished-at="2019-01-07T18:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFilmyDuniaCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckFilmyDuniaCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFilmyDuniaSubCata()" name="CheckFilmyDuniaSubCata" duration-ms="2035" started-at="2019-01-07T18:46:12Z" finished-at="2019-01-07T18:46:14Z">
+        </test-method>
+        <test-method status="PASS" signature="DharamParCharchaCata()" name="DharamParCharchaCata" duration-ms="1035" started-at="2019-01-07T18:46:14Z" finished-at="2019-01-07T18:46:15Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:14Z" finished-at="2019-01-07T18:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFilmyDuniaSubCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckFilmyDuniaSubCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:15Z" finished-at="2019-01-07T18:46:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: DharamParCharchaCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.DharamParCharchaCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDharamParCharchaSubCata()" name="CheckDharamParCharchaSubCata" duration-ms="1027" started-at="2019-01-07T18:46:15Z" finished-at="2019-01-07T18:46:16Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckMultiMediaCata()" name="CheckMultiMediaCata" duration-ms="1038" started-at="2019-01-07T18:46:16Z" finished-at="2019-01-07T18:46:17Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:16Z" finished-at="2019-01-07T18:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDharamParCharchaSubCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckDharamParCharchaSubCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:17Z" finished-at="2019-01-07T18:46:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMultiMediaCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckMultiMediaCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckMultiMediaSubCata()" name="CheckMultiMediaSubCata" duration-ms="1030" started-at="2019-01-07T18:46:17Z" finished-at="2019-01-07T18:46:18Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:18Z" finished-at="2019-01-07T18:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMultiMediaSubCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckMultiMediaSubCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckKhelKhiladiCata()" name="CheckKhelKhiladiCata" duration-ms="1029" started-at="2019-01-07T18:46:18Z" finished-at="2019-01-07T18:46:19Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:19Z" finished-at="2019-01-07T18:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckKhelKhiladiCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckKhelKhiladiCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckMathPachiCata()" name="CheckMathPachiCata" duration-ms="1024" started-at="2019-01-07T18:46:19Z" finished-at="2019-01-07T18:46:20Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:20Z" finished-at="2019-01-07T18:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMathPachiCata STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckMathPachiCata()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckNewsDigestPage()" name="CheckNewsDigestPage" duration-ms="4836" started-at="2019-01-07T18:46:20Z" finished-at="2019-01-07T18:46:25Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckKiseePage()" name="CheckKiseePage" duration-ms="6046" started-at="2019-01-07T18:46:25Z" finished-at="2019-01-07T18:46:31Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:25Z" finished-at="2019-01-07T18:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckNewsDigestPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckNewsDigestPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckApnaHindustanPage()" name="CheckApnaHindustanPage" duration-ms="4490" started-at="2019-01-07T18:46:31Z" finished-at="2019-01-07T18:46:35Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:31Z" finished-at="2019-01-07T18:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckKiseePage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckKiseePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:35Z" finished-at="2019-01-07T18:46:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckApnaHindustanPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckApnaHindustanPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFirangiPage()" name="CheckFirangiPage" duration-ms="4223" started-at="2019-01-07T18:46:35Z" finished-at="2019-01-07T18:46:39Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckSocialCharchaPage()" name="CheckSocialCharchaPage" duration-ms="4520" started-at="2019-01-07T18:46:39Z" finished-at="2019-01-07T18:46:44Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:39Z" finished-at="2019-01-07T18:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFirangiPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckFirangiPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="4" started-at="2019-01-07T18:46:44Z" finished-at="2019-01-07T18:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSocialCharchaPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckSocialCharchaPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckLifePage()" name="CheckLifePage" duration-ms="4534" started-at="2019-01-07T18:46:44Z" finished-at="2019-01-07T18:46:48Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:46:48Z" finished-at="2019-01-07T18:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckLifePage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckLifePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckRahanSahanPage()" name="CheckRahanSahanPage" duration-ms="7261" started-at="2019-01-07T18:46:48Z" finished-at="2019-01-07T18:46:56Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:46:56Z" finished-at="2019-01-07T18:46:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckRahanSahanPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckRahanSahanPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckRelationshipPage()" name="CheckRelationshipPage" duration-ms="28600" started-at="2019-01-07T18:46:56Z" finished-at="2019-01-07T18:47:24Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:47:24Z" finished-at="2019-01-07T18:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckRelationshipPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckRelationshipPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckHealthPage()" name="CheckHealthPage" duration-ms="4124" started-at="2019-01-07T18:47:24Z" finished-at="2019-01-07T18:47:28Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:47:28Z" finished-at="2019-01-07T18:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckHealthPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckHealthPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckTaknikPage()" name="CheckTaknikPage" duration-ms="4505" started-at="2019-01-07T18:47:28Z" finished-at="2019-01-07T18:47:33Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:47:33Z" finished-at="2019-01-07T18:47:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckTaknikPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckTaknikPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckHasithitoliPage()" name="CheckHasithitoliPage" duration-ms="4813" started-at="2019-01-07T18:47:33Z" finished-at="2019-01-07T18:47:38Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:47:38Z" finished-at="2019-01-07T18:47:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckHasithitoliPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckHasithitoliPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckFilmyDuniaPage()" name="CheckFilmyDuniaPage" duration-ms="4363" started-at="2019-01-07T18:47:38Z" finished-at="2019-01-07T18:47:42Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:47:42Z" finished-at="2019-01-07T18:47:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckFilmyDuniaPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckFilmyDuniaPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckSitareZaminPePage()" name="CheckSitareZaminPePage" duration-ms="4130" started-at="2019-01-07T18:47:42Z" finished-at="2019-01-07T18:47:46Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:47:46Z" finished-at="2019-01-07T18:47:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckSitareZaminPePage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckSitareZaminPePage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckChugalKhorCachiPage()" name="CheckChugalKhorCachiPage" duration-ms="4832" started-at="2019-01-07T18:47:46Z" finished-at="2019-01-07T18:47:51Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:47:51Z" finished-at="2019-01-07T18:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckChugalKhorCachiPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckChugalKhorCachiPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDharamParCharchaPage()" name="CheckDharamParCharchaPage" duration-ms="121195" started-at="2019-01-07T18:47:51Z" finished-at="2019-01-07T18:49:52Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:49:52Z" finished-at="2019-01-07T18:49:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDharamParCharchaPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckDharamParCharchaPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckDharmikItihasPage()" name="CheckDharmikItihasPage" duration-ms="4391" started-at="2019-01-07T18:49:52Z" finished-at="2019-01-07T18:49:57Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:49:57Z" finished-at="2019-01-07T18:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckDharmikItihasPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckDharmikItihasPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckMultiMediaPage()" name="CheckMultiMediaPage" duration-ms="4940" started-at="2019-01-07T18:49:57Z" finished-at="2019-01-07T18:50:02Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckVideoPage()" name="CheckVideoPage" duration-ms="4349" started-at="2019-01-07T18:50:02Z" finished-at="2019-01-07T18:50:06Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:02Z" finished-at="2019-01-07T18:50:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMultiMediaPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckMultiMediaPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:06Z" finished-at="2019-01-07T18:50:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckVideoPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckVideoPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckInfoGraphicsPage()" name="CheckInfoGraphicsPage" duration-ms="4506" started-at="2019-01-07T18:50:06Z" finished-at="2019-01-07T18:50:11Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:11Z" finished-at="2019-01-07T18:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckInfoGraphicsPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckInfoGraphicsPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckKhelKhiladiPage()" name="CheckKhelKhiladiPage" duration-ms="8249" started-at="2019-01-07T18:50:11Z" finished-at="2019-01-07T18:50:19Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:50:19Z" finished-at="2019-01-07T18:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckKhelKhiladiPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckKhelKhiladiPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckMathPachiPage()" name="CheckMathPachiPage" duration-ms="7389" started-at="2019-01-07T18:50:19Z" finished-at="2019-01-07T18:50:26Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:50:26Z" finished-at="2019-01-07T18:50:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckMathPachiPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest.CheckMathPachiPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="DuniadigestTestCases.DuniadigestStoryPageTestCasesTest">
+        <test-method status="PASS" signature="OpenStoryPage()" name="OpenStoryPage" duration-ms="32755" started-at="2019-01-07T18:51:16Z" finished-at="2019-01-07T18:51:49Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:49Z" finished-at="2019-01-07T18:51:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: OpenStoryPage STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.OpenStoryPage()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryAuthor()" name="CheckStoryAuthor" duration-ms="1053" started-at="2019-01-07T18:51:49Z" finished-at="2019-01-07T18:51:50Z">
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryTitle()" name="CheckStoryTitle" duration-ms="1248" started-at="2019-01-07T18:51:50Z" finished-at="2019-01-07T18:51:52Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:50Z" finished-at="2019-01-07T18:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryAuthor STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.CheckStoryAuthor()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:52Z" finished-at="2019-01-07T18:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryTitle STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.CheckStoryTitle()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryDesc()" name="CheckStoryDesc" duration-ms="1031" started-at="2019-01-07T18:51:52Z" finished-at="2019-01-07T18:51:53Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:53Z" finished-at="2019-01-07T18:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryDesc STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.CheckStoryDesc()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryShares()" name="CheckStoryShares" duration-ms="1128" started-at="2019-01-07T18:51:53Z" finished-at="2019-01-07T18:51:54Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:54Z" finished-at="2019-01-07T18:51:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryShares STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.CheckStoryShares()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryShareOptions()" name="CheckStoryShareOptions" duration-ms="1056" started-at="2019-01-07T18:51:54Z" finished-at="2019-01-07T18:51:55Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-07T18:51:55Z" finished-at="2019-01-07T18:51:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryShareOptions STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.CheckStoryShareOptions()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="CheckStoryContent()" name="CheckStoryContent" duration-ms="1022" started-at="2019-01-07T18:51:55Z" finished-at="2019-01-07T18:51:56Z">
+        </test-method>
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-07T18:51:56Z" finished-at="2019-01-07T18:51:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: CheckStoryContent STATUS:SUCCESS METHOD:DuniadigestTestCases.DuniadigestStoryPageTestCasesTest.CheckStoryContent()]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

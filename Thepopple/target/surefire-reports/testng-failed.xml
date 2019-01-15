@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="PoppleTestCases.ReportGenerateThePoopleTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.TagstestcasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.CatagoriesPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.SearchPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.StoryPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.UserProfileTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest">
+        <methods>
+          <include name="Checkcountry_nameValue"/>
+          <include name="CheckpidValue"/>
+          <include name="Checkpage_urlValue"/>
+          <include name="Checktree_idValue"/>
+          <include name="Checkdev_sourceValue"/>
+          <include name="Checkwriter_nameValue"/>
+          <include name="CheckdomainValue"/>
+          <include name="CheckGMTValue"/>
+          <include name="Checkcurrent_blockValue"/>
+          <include name="CheckofcValue"/>
+          <include name="CheckussValue"/>
+          <include name="CheckfpValue"/>
+          <include name="Checklanguage_EnglishValue"/>
+          <include name="Checkstory_tagsValue"/>
+          <include name="Checkwriter_idValue"/>
+          <include name="Checktotal_adsValue"/>
+          <include name="CheckadPartnerValue"/>
+          <include name="CheckcityValue"/>
+          <include name="Checkcategory_idValue"/>
+          <include name="ReadHarFile"/>
+          <include name="Checkreferral_domainValue"/>
+          <include name="Checktotal_blocksValue"/>
+          <include name="Checkcountry_codeValue"/>
+          <include name="Checkgoogle_entitiesValue"/>
+          <include name="Checkvisit_blockValue"/>
+          <include name="Checkinit_story_idValue"/>
+          <include name="CheckadblockerValue"/>
+          <include name="CheckPBValue"/>
+          <include name="getResults"/>
+          <include name="Checkclient_ipValue"/>
+          <include name="Checkcategory_peopleValue"/>
+          <include name="Checkpage_typeValue"/>
+          <include name="Checkstory_idValue"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.HomePageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="PoppleTestCases.FooterOptionTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

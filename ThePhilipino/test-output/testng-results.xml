@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27956" started-at="2019-01-10T11:01:02Z" finished-at="2019-01-10T11:01:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27956" started-at="2019-01-10T11:01:02Z" finished-at="2019-01-10T11:01:30Z">
+      <class name="ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="Setup" is-config="true" duration-ms="8518" started-at="2019-01-10T11:00:53Z" finished-at="2019-01-10T11:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="OpenStoryPage()[pri:113, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="OpenStoryPage" duration-ms="21600" started-at="2019-01-10T11:01:02Z" finished-at="2019-01-10T11:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenStoryPage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="21" started-at="2019-01-10T11:01:24Z" finished-at="2019-01-10T11:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenStoryPage status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.OpenStoryPage()[pri:113, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStoryAuthor()[pri:115, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="CheckStoryAuthor" duration-ms="1053" started-at="2019-01-10T11:01:24Z" finished-at="2019-01-10T11:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStoryAuthor -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T11:01:25Z" finished-at="2019-01-10T11:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStoryAuthor status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.CheckStoryAuthor()[pri:115, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStoryTitle()[pri:116, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="CheckStoryTitle" duration-ms="1031" started-at="2019-01-10T11:01:25Z" finished-at="2019-01-10T11:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStoryTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-10T11:01:26Z" finished-at="2019-01-10T11:01:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStoryTitle status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.CheckStoryTitle()[pri:116, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStoryDesc()[pri:117, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="CheckStoryDesc" duration-ms="1072" started-at="2019-01-10T11:01:26Z" finished-at="2019-01-10T11:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStoryDesc -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T11:01:27Z" finished-at="2019-01-10T11:01:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStoryDesc status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.CheckStoryDesc()[pri:117, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStoryShares()[pri:118, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="CheckStoryShares" duration-ms="1042" started-at="2019-01-10T11:01:27Z" finished-at="2019-01-10T11:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStoryShares -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T11:01:28Z" finished-at="2019-01-10T11:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStoryShares status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.CheckStoryShares()[pri:118, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStoryShareOptions()[pri:119, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="CheckStoryShareOptions" duration-ms="1061" started-at="2019-01-10T11:01:28Z" finished-at="2019-01-10T11:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStoryShareOptions -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T11:01:29Z" finished-at="2019-01-10T11:01:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStoryShareOptions status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.CheckStoryShareOptions()[pri:119, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStoryContent()[pri:120, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="CheckStoryContent" duration-ms="1033" started-at="2019-01-10T11:01:29Z" finished-at="2019-01-10T11:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStoryContent -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T11:01:30Z" finished-at="2019-01-10T11:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStoryContent status=SUCCESS method=ThephilipinoStoryPageTestCasesTest.CheckStoryContent()[pri:120, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest@543788f3]" name="tearDown" is-config="true" duration-ms="1599" started-at="2019-01-10T11:01:30Z" finished-at="2019-01-10T11:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ThePhilipinoTestCases.ThephilipinoStoryPageTestCasesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

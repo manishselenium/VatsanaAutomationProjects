@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 264, Failures: 1, Errors: 0, Skipped: 263, Time elapsed: 307.456 sec <<< FAILURE!
+CreatHarFile(WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest)  Time elapsed: 306.547 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'wittyfeed-Vostro-3558', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-131-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:39905}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d), userDataDir=/tmp/.org.chromium.Chromium.5Gv3Ia}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3f263da1a74025233395d7ea7e72bd1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:954)
+	at WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest.CreatHarFile(CaptureAndParsingHarFileForPixPngTest.java:84)
+

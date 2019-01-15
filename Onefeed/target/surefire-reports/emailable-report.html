@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">130</td><td class="numi">130</td><td class="numi">0</td><td class="numi">0</td><td class="numi">444.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m1"><b>CheckadPartnerValue</b>  </a></td><td class="numi">1</td><td class="numi">22</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m2"><b>CheckNewsDigest</b>  </a></td><td class="numi">1</td><td class="numi">1037</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m3"><b>CheckStoryAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1053</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m4"><b>CheckApnaHindustanPage</b>  </a></td><td class="numi">1</td><td class="numi">4490</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m5"><b>CheckDharamParCharchaCategories</b>  </a></td><td class="numi">1</td><td class="numi">8</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.DuniadigestSearchPageTestCasesTest<td><a href="#m6"><b>ClickSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">10946</td></tr><tr class="passedeven"><td><a href="#m7"><b>CheckSearchedStoryImage</b>  </a></td><td class="numi">1</td><td class="numi">12</td></tr>
+<tr class="passedodd"><td rowspan="4">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m8"><b>CheckYouTubeLink</b>  </a></td><td class="numi">1</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m9"><b>CheckSecondPostImage</b>  </a></td><td class="numi">1</td><td class="numi">12</td></tr><tr class="passedodd"><td><a href="#m10"><b>CheckMathaPachiCategories</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr><tr class="passedodd"><td><a href="#m11"><b>CheckThirdPostImage</b>  </a></td><td class="numi">1</td><td class="numi">8</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m12"><b>CheckWriterName</b>  </a></td><td class="numi">1</td><td class="numi">10</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m13"><b>CheckQuizeFeedImage</b>  </a></td><td class="numi">1</td><td class="numi">1023</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m14"><b>CheckTaknikPage</b>  </a></td><td class="numi">1</td><td class="numi">4505</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m15"><b>Checkcategory_idValue</b>  </a></td><td class="numi">1</td><td class="numi">28</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestTagstestcasesTest<td><a href="#m16"><b>CheckSearchTags</b>  </a></td><td class="numi">1</td><td class="numi">8</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m17"><b>CheckSitareZaminPePage</b>  </a></td><td class="numi">1</td><td class="numi">4130</td></tr><tr class="passedodd"><td><a href="#m18"><b>CheckSocialCharchaPage</b>  </a></td><td class="numi">1</td><td class="numi">4520</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m19"><b>CheckEditor</b>  </a></td><td class="numi">1</td><td class="numi">10</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m20"><b>Checkstory_idValue</b>  </a></td><td class="numi">1</td><td class="numi">21</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m21"><b>CheckEatSleepReadReaptTitle</b>  </a></td><td class="numi">1</td><td class="numi">1021</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m22"><b>CheckVideoPage</b>  </a></td><td class="numi">1</td><td class="numi">4349</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m23"><b>CheckSecondPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">9</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m24"><b>CheckCantactUsPage</b>  </a></td><td class="numi">1</td><td class="numi">24</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m25"><b>Checkpage_typeValue</b>  </a></td><td class="numi">1</td><td class="numi">27</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m26"><b>CheckLatestStoryAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1027</td></tr><tr class="passedodd"><td><a href="#m27"><b>CheckQuizefeedTitle</b>  </a></td><td class="numi">1</td><td class="numi">1025</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m28"><b>CheckNewsDigestSubCata</b>  </a></td><td class="numi">1</td><td class="numi">1028</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m29"><b>Checkcurrent_blockValue</b>  </a></td><td class="numi">1</td><td class="numi">26</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m30"><b>CheckKiseePage</b>  </a></td><td class="numi">1</td><td class="numi">6046</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m31"><b>CheckBackgroundImage</b>  </a></td><td class="numi">1</td><td class="numi">20</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m32"><b>CheckStoryShareOptions</b>  </a></td><td class="numi">1</td><td class="numi">1056</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m33"><b>CheckEatSleepReadReaptImage</b>  </a></td><td class="numi">1</td><td class="numi">1022</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m34"><b>CheckTermsOfUseLink</b>  </a></td><td class="numi">1</td><td class="numi">11</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m35"><b>CheckStoryShares</b>  </a></td><td class="numi">1</td><td class="numi">1128</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m36"><b>ClickHamburgerMenu</b>  </a></td><td class="numi">1</td><td class="numi">16218</td></tr>
+<tr class="passedodd"><td rowspan="3">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m37"><b>CheckofcValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr><tr class="passedodd"><td><a href="#m38"><b>CheckfpValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr><tr class="passedodd"><td><a href="#m39"><b>Checkwriter_nameValue</b>  </a></td><td class="numi">1</td><td class="numi">28</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m40"><b>CheckCantactUsLink</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m41"><b>Checkdev_sourceValue</b>  </a></td><td class="numi">1</td><td class="numi">22</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestSearchPageTestCasesTest<td><a href="#m42"><b>CheckSearchHeader</b>  </a></td><td class="numi">1</td><td class="numi">16</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m43"><b>CheckMultiMediaSubCata</b>  </a></td><td class="numi">1</td><td class="numi">1030</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m44"><b>Checktotal_adsValue</b>  </a></td><td class="numi">1</td><td class="numi">22</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m45"><b>CheckInfoGraphicsPage</b>  </a></td><td class="numi">1</td><td class="numi">4506</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m46"><b>CheckFilmyDuniaCategories</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr><tr class="passedeven"><td><a href="#m47"><b>CheckSiteLogo</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m48"><b>CheckAuthorImage</b>  </a></td><td class="numi">1</td><td class="numi">12</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m49"><b>OpenStoryPage</b>  </a></td><td class="numi">1</td><td class="numi">32755</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m50"><b>CheckMathPachiCata</b>  </a></td><td class="numi">1</td><td class="numi">1024</td></tr><tr class="passedodd"><td><a href="#m51"><b>CheckMultiMediaCata</b>  </a></td><td class="numi">1</td><td class="numi">1038</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m52"><b>CheckNewsDigestCategories</b>  </a></td><td class="numi">1</td><td class="numi">6</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m53"><b>CheckFilmyDuniaPage</b>  </a></td><td class="numi">1</td><td class="numi">4363</td></tr><tr class="passedodd"><td><a href="#m54"><b>CheckDharmikItihasPage</b>  </a></td><td class="numi">1</td><td class="numi">4391</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m55"><b>CheckFeaturedPostImage</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestTagstestcasesTest<td><a href="#m56"><b>CheckSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">5227</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m57"><b>CheckRelationshipPage</b>  </a></td><td class="numi">1</td><td class="numi">28600</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m58"><b>CheckSearchOption</b>  </a></td><td class="numi">1</td><td class="numi">4990</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m59"><b>CheckHasithitoliPage</b>  </a></td><td class="numi">1</td><td class="numi">4813</td></tr><tr class="passedeven"><td><a href="#m60"><b>CheckKhelKhiladiPage</b>  </a></td><td class="numi">1</td><td class="numi">8249</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m61"><b>CheckFeaturedPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">8</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m62"><b>Checktotal_blocksValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m63"><b>CheckTermsOfUsePage</b>  </a></td><td class="numi">1</td><td class="numi">4176</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m64"><b>CheckPBValue</b>  </a></td><td class="numi">1</td><td class="numi">23</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m65"><b>CheckAbutUsPage</b>  </a></td><td class="numi">1</td><td class="numi">4305</td></tr><tr class="passedodd"><td><a href="#m66"><b>CheckPrivacyPolicyPage</b>  </a></td><td class="numi">1</td><td class="numi">4082</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m67"><b>CheckFacebookLink</b>  </a></td><td class="numi">1</td><td class="numi">6</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m68"><b>OpenGoogleappsHar_analyzer</b>  </a></td><td class="numi">1</td><td class="numi">14324</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m69"><b>CheckNewsDigestPage</b>  </a></td><td class="numi">1</td><td class="numi">4836</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m70"><b>CheckStoryDesc</b>  </a></td><td class="numi">1</td><td class="numi">1031</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m71"><b>ClickHamburgerMenu</b>  </a></td><td class="numi">1</td><td class="numi">5052</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m72"><b>CheckFilmyDuniaSubCata</b>  </a></td><td class="numi">1</td><td class="numi">2035</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m73"><b>CheckLatestStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">1229</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m74"><b>CheckDharamParCharchaSubCata</b>  </a></td><td class="numi">1</td><td class="numi">1027</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m75"><b>Checkcountry_nameValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr><tr class="passedeven"><td><a href="#m76"><b>Checkwriter_idValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m77"><b>CheckProfileDesc</b>  </a></td><td class="numi">1</td><td class="numi">12</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m78"><b>CheckChugalKhorCachiPage</b>  </a></td><td class="numi">1</td><td class="numi">4832</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m79"><b>CheckInstaLink</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m80"><b>CheckLifePage</b>  </a></td><td class="numi">1</td><td class="numi">4534</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m81"><b>CheckpidValue</b>  </a></td><td class="numi">1</td><td class="numi">33</td></tr><tr class="passedodd"><td><a href="#m82"><b>CheckdomainValue</b>  </a></td><td class="numi">1</td><td class="numi">23</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m83"><b>CheckDDVideo1</b>  </a></td><td class="numi">1</td><td class="numi">1022</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m84"><b>Checkclient_ipValue</b>  </a></td><td class="numi">1</td><td class="numi">29</td></tr><tr class="passedodd"><td><a href="#m85"><b>CheckadblockerValue</b>  </a></td><td class="numi">1</td><td class="numi">32</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m86"><b>CheckThirdPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">6</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m87"><b>CheckStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">1248</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m88"><b>Checkcountry_codeValue</b>  </a></td><td class="numi">1</td><td class="numi">28</td></tr><tr class="passedeven"><td><a href="#m89"><b>CheckGMTValue</b>  </a></td><td class="numi">1</td><td class="numi">58</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m90"><b>CheckAbutUsLink</b>  </a></td><td class="numi">1</td><td class="numi">13</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m91"><b>Checktree_idValue</b>  </a></td><td class="numi">1</td><td class="numi">28</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m92"><b>CheckLifeSubCata</b>  </a></td><td class="numi">1</td><td class="numi">1026</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest<td><a href="#m93"><b>CheckPrivacyPolicyLink</b>  </a></td><td class="numi">1</td><td class="numi">10</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m94"><b>CheckKhelKhiladiCategories</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m95"><b>Checkinit_story_idValue</b>  </a></td><td class="numi">1</td><td class="numi">30</td></tr><tr class="passedeven"><td><a href="#m96"><b>CheckussValue</b>  </a></td><td class="numi">1</td><td class="numi">33</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m97"><b>CheckFeaturedPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr><tr class="passedodd"><td><a href="#m98"><b>CheckThirdPostTitle</b>  </a></td><td class="numi">1</td><td class="numi">8</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m99"><b>CheckAuthorName</b>  </a></td><td class="numi">1</td><td class="numi">15</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m100"><b>CheckLifeCategories</b>  </a></td><td class="numi">1</td><td class="numi">5009</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestSearchPageTestCasesTest<td><a href="#m101"><b>CheckSearchedStoryTitle</b>  </a></td><td class="numi">1</td><td class="numi">20</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m102"><b>Checkreferral_domainValue</b>  </a></td><td class="numi">1</td><td class="numi">21</td></tr><tr class="passedodd"><td><a href="#m103"><b>Checkstory_tagsValue</b>  </a></td><td class="numi">1</td><td class="numi">21</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m104"><b>ClickAuthorName</b>  </a></td><td class="numi">1</td><td class="numi">9450</td></tr>
+<tr class="passedodd"><td rowspan="3">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m105"><b>CheckFirangiPage</b>  </a></td><td class="numi">1</td><td class="numi">4223</td></tr><tr class="passedodd"><td><a href="#m106"><b>CheckFilmyDuniaCata</b>  </a></td><td class="numi">1</td><td class="numi">1025</td></tr><tr class="passedodd"><td><a href="#m107"><b>CheckRahanSahanPage</b>  </a></td><td class="numi">1</td><td class="numi">7261</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m108"><b>Checkgoogle_entitiesValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m109"><b>CheckMultiMediaCategories</b>  </a></td><td class="numi">1</td><td class="numi">8</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m110"><b>CheckLifeCata</b>  </a></td><td class="numi">1</td><td class="numi">1030</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m111"><b>Checklanguage_EnglishValue</b>  </a></td><td class="numi">1</td><td class="numi">22</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m112"><b>CheckTwitterLink</b>  </a></td><td class="numi">1</td><td class="numi">9</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m113"><b>CheckMathPachiPage</b>  </a></td><td class="numi">1</td><td class="numi">7389</td></tr><tr class="passedodd"><td><a href="#m114"><b>CheckDharamParCharchaPage</b>  </a></td><td class="numi">1</td><td class="numi">121195</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m115"><b>CheckDDVideo2</b>  </a></td><td class="numi">1</td><td class="numi">1020</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m116"><b>CheckMultiMediaPage</b>  </a></td><td class="numi">1</td><td class="numi">4940</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m117"><b>Checkvisit_blockValue</b>  </a></td><td class="numi">1</td><td class="numi">25</td></tr><tr class="passedeven"><td><a href="#m118"><b>Checkpage_urlValue</b>  </a></td><td class="numi">1</td><td class="numi">23</td></tr>
+<tr class="passedodd"><td rowspan="2">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m119"><b>CheckHealthPage</b>  </a></td><td class="numi">1</td><td class="numi">4124</td></tr><tr class="passedodd"><td><a href="#m120"><b>CheckKhelKhiladiCata</b>  </a></td><td class="numi">1</td><td class="numi">1029</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestStoryPageTestCasesTest<td><a href="#m121"><b>CheckStoryContent</b>  </a></td><td class="numi">1</td><td class="numi">1022</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m122"><b>CheckcityValue</b>  </a></td><td class="numi">1</td><td class="numi">24</td></tr>
+<tr class="passedeven"><td rowspan="2">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m123"><b>CheckSecondPostAuthor</b>  </a></td><td class="numi">1</td><td class="numi">7</td></tr><tr class="passedeven"><td><a href="#m124"><b>CheckEatSleepReadReaptAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1024</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest<td><a href="#m125"><b>Checkcategory_peopleValue</b>  </a></td><td class="numi">1</td><td class="numi">33</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m126"><b>LatestStories</b>  </a></td><td class="numi">1</td><td class="numi">10</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m127"><b>CheckLatestStoryImage</b>  </a></td><td class="numi">1</td><td class="numi">1023</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest<td><a href="#m128"><b>DharamParCharchaCata</b>  </a></td><td class="numi">1</td><td class="numi">1035</td></tr>
+<tr class="passedodd"><td rowspan="1">DuniadigestTestCases.DuniadigestHomePageTestcasesTest<td><a href="#m129"><b>CheckQuizeFeedAuthor</b>  </a></td><td class="numi">1</td><td class="numi">1024</td></tr>
+<tr class="passedeven"><td rowspan="1">DuniadigestTestCases.DuniadigestUserProfileTestCasesTest<td><a href="#m130"><b>CheckDontMissThisStory</b>  </a></td><td class="numi">1</td><td class="numi">10</td></tr>
+</table>
+<h1>Command line test</h1>
+<a id="m1"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckadPartnerValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckNewsDigest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:CheckStoryAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckApnaHindustanPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckDharamParCharchaCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>DuniadigestTestCases.DuniadigestSearchPageTestCasesTest:ClickSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>DuniadigestTestCases.DuniadigestSearchPageTestCasesTest:CheckSearchedStoryImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckYouTubeLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckSecondPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckMathaPachiCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckThirdPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckWriterName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckQuizeFeedImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckTaknikPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkcategory_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>DuniadigestTestCases.DuniadigestTagstestcasesTest:CheckSearchTags</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckSitareZaminPePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckSocialCharchaPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckEditor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkstory_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckEatSleepReadReaptTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckVideoPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckSecondPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckCantactUsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkpage_typeValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckLatestStoryAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckQuizefeedTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckNewsDigestSubCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkcurrent_blockValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckKiseePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckBackgroundImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:CheckStoryShareOptions</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckEatSleepReadReaptImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckTermsOfUseLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m35"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:CheckStoryShares</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m36"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:ClickHamburgerMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m37"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckofcValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m38"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckfpValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m39"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkwriter_nameValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m40"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckCantactUsLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m41"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkdev_sourceValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m42"></a><h2>DuniadigestTestCases.DuniadigestSearchPageTestCasesTest:CheckSearchHeader</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m43"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckMultiMediaSubCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m44"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checktotal_adsValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m45"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckInfoGraphicsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m46"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckFilmyDuniaCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m47"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckSiteLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m48"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckAuthorImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m49"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:OpenStoryPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m50"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckMathPachiCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m51"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckMultiMediaCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m52"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckNewsDigestCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m53"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckFilmyDuniaPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m54"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckDharmikItihasPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m55"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckFeaturedPostImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m56"></a><h2>DuniadigestTestCases.DuniadigestTagstestcasesTest:CheckSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m57"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckRelationshipPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m58"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckSearchOption</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m59"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckHasithitoliPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m60"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckKhelKhiladiPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m61"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckFeaturedPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m62"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checktotal_blocksValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m63"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckTermsOfUsePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m64"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckPBValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m65"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckAbutUsPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m66"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckPrivacyPolicyPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m67"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckFacebookLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m68"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:OpenGoogleappsHar_analyzer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m69"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckNewsDigestPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m70"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:CheckStoryDesc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m71"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:ClickHamburgerMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m72"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckFilmyDuniaSubCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m73"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckLatestStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m74"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckDharamParCharchaSubCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m75"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkcountry_nameValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m76"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkwriter_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m77"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckProfileDesc</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m78"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckChugalKhorCachiPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m79"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckInstaLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m80"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckLifePage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m81"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckpidValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m82"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckdomainValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m83"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckDDVideo1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m84"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkclient_ipValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m85"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckadblockerValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m86"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckThirdPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m87"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:CheckStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m88"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkcountry_codeValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m89"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckGMTValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m90"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckAbutUsLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m91"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checktree_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m92"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckLifeSubCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m93"></a><h2>DuniadigestTestCases.DuniadigestFooterOptionTestCasesTest:CheckPrivacyPolicyLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m94"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckKhelKhiladiCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m95"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkinit_story_idValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m96"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckussValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m97"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckFeaturedPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m98"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckThirdPostTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m99"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckAuthorName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m100"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckLifeCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m101"></a><h2>DuniadigestTestCases.DuniadigestSearchPageTestCasesTest:CheckSearchedStoryTitle</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m102"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkreferral_domainValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m103"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkstory_tagsValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m104"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:ClickAuthorName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m105"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckFirangiPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m106"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckFilmyDuniaCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m107"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckRahanSahanPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m108"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkgoogle_entitiesValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m109"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckMultiMediaCategories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m110"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckLifeCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m111"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checklanguage_EnglishValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m112"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckTwitterLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m113"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckMathPachiPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m114"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckDharamParCharchaPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m115"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckDDVideo2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m116"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckMultiMediaPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m117"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkvisit_blockValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m118"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkpage_urlValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m119"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckHealthPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m120"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:CheckKhelKhiladiCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m121"></a><h2>DuniadigestTestCases.DuniadigestStoryPageTestCasesTest:CheckStoryContent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m122"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:CheckcityValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m123"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckSecondPostAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m124"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckEatSleepReadReaptAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m125"></a><h2>DuniadigestTestCases.CaptureAndParsingHarFileForPixPngDDTest:Checkcategory_peopleValue</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m126"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:LatestStories</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m127"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckLatestStoryImage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m128"></a><h2>DuniadigestTestCases.DuniadigestCatagoiesTestCasesTest:DharamParCharchaCata</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m129"></a><h2>DuniadigestTestCases.DuniadigestHomePageTestcasesTest:CheckQuizeFeedAuthor</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m130"></a><h2>DuniadigestTestCases.DuniadigestUserProfileTestCasesTest:CheckDontMissThisStory</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

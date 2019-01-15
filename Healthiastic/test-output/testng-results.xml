@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27022" started-at="2019-01-10T05:39:08Z" finished-at="2019-01-10T05:39:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27022" started-at="2019-01-10T05:39:08Z" finished-at="2019-01-10T05:39:35Z">
+      <class name="HealthiasticTestCases.HealthiasticSearchPageTestCasesTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="Setup" is-config="true" duration-ms="16046" started-at="2019-01-10T05:38:52Z" finished-at="2019-01-10T05:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ClickSearchOption()[pri:109, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="ClickSearchOption" duration-ms="26917" started-at="2019-01-10T05:39:08Z" finished-at="2019-01-10T05:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchOption -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="22" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchOption status=SUCCESS method=HealthiasticSearchPageTestCasesTest.ClickSearchOption()[pri:109, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchHeader()[pri:110, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="CheckSearchHeader" duration-ms="19" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchHeader -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchHeader status=SUCCESS method=HealthiasticSearchPageTestCasesTest.CheckSearchHeader()[pri:110, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchedStoryImage()[pri:111, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="CheckSearchedStoryImage" duration-ms="12" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchedStoryImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchedStoryImage status=SUCCESS method=HealthiasticSearchPageTestCasesTest.CheckSearchedStoryImage()[pri:111, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchedStoryTitle()[pri:112, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="CheckSearchedStoryTitle" duration-ms="21" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchedStoryTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchedStoryTitle status=SUCCESS method=HealthiasticSearchPageTestCasesTest.CheckSearchedStoryTitle()[pri:112, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HealthiasticTestCases.HealthiasticSearchPageTestCasesTest@543788f3]" name="tearDown" is-config="true" duration-ms="2105" started-at="2019-01-10T05:39:35Z" finished-at="2019-01-10T05:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HealthiasticTestCases.HealthiasticSearchPageTestCasesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

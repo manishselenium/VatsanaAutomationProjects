@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36837" started-at="2019-01-09T13:20:56Z" finished-at="2019-01-09T13:21:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36837" started-at="2019-01-09T13:20:56Z" finished-at="2019-01-09T13:21:33Z">
+      <class name="FactsonlyTestCases.FactsonlySearchPageTestCasesTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="Setup" is-config="true" duration-ms="8569" started-at="2019-01-09T13:20:47Z" finished-at="2019-01-09T13:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ClickSearchOption()[pri:109, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="ClickSearchOption" duration-ms="36714" started-at="2019-01-09T13:20:56Z" finished-at="2019-01-09T13:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchOption -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="31" started-at="2019-01-09T13:21:32Z" finished-at="2019-01-09T13:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickSearchOption status=SUCCESS method=FactsonlySearchPageTestCasesTest.ClickSearchOption()[pri:109, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchHeader()[pri:110, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="CheckSearchHeader" duration-ms="21" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchHeader -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchHeader status=SUCCESS method=FactsonlySearchPageTestCasesTest.CheckSearchHeader()[pri:110, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchedStoryImage()[pri:111, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="CheckSearchedStoryImage" duration-ms="16" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchedStoryImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchedStoryImage status=SUCCESS method=FactsonlySearchPageTestCasesTest.CheckSearchedStoryImage()[pri:111, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchedStoryTitle()[pri:112, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="CheckSearchedStoryTitle" duration-ms="14" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchedStoryTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchedStoryTitle status=SUCCESS method=FactsonlySearchPageTestCasesTest.CheckSearchedStoryTitle()[pri:112, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FactsonlyTestCases.FactsonlySearchPageTestCasesTest@543788f3]" name="tearDown" is-config="true" duration-ms="1516" started-at="2019-01-09T13:21:33Z" finished-at="2019-01-09T13:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FactsonlyTestCases.FactsonlySearchPageTestCasesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

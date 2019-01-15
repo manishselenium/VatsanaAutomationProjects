@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="wittyfeed-Vostro-3558" name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest" tests="131" failures="10" timestamp="19 Dec 2018 05:26:48 GMT" time="478.281" errors="0">
+  <testcase name="OpenGoogleappsHar_analyzer" time="13.388" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckGMTValue" time="0.133" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkvisit_blockValue" time="0.065" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcountry_codeValue" time="0.069" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checklanguage_EnglishValue" time="0.065" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcategory_peopleValue" time="0.064" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkwriter_nameValue" time="0.055" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkwriter_idValue" time="0.056" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcategory_idValue" time="0.055" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkstory_idValue" time="0.051" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkgoogle_entitiesValue" time="0.067" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkpage_typeValue" time="0.074" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckcityValue" time="0.055" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcountry_nameValue" time="0.075" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckfpValue" time="0.065" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkpage_urlValue" time="0.062" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkclient_ipValue" time="0.064" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkreferral_domainValue" time="0.053" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkdev_sourceValue" time="0.053" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckPBValue" time="0.053" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkstory_tagsValue" time="0.051" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkcurrent_blockValue" time="0.05" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checktotal_blocksValue" time="0.075" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckdomainValue" time="0.089" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckadPartnerValue" time="0.068" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckadblockerValue" time="0.068" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckofcValue" time="0.064" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checktotal_adsValue" time="0.061" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checktree_idValue" time="0.057" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckussValue" time="0.063" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="CheckpidValue" time="0.055" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="Checkinit_story_idValue" time="0.057" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest"/>
+  <testcase name="ClickHamburgerMenu" time="11.158" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckNewsCata" time="1.129" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckNewsSubCata" time="1.057" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckLifeStyleCata" time="1.065" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckLifeStyleSubCata" time="1.075" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckEntertainmentCata" time="1.055" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckEntertainmentSubCata" time="1.042" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckOpinionLink" time="1.063" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckIndiaKaPulseLink" time="1.057" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialImpactLink" time="1.058" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckGirlingLink" time="1.052" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckVideosLink" time="1.058" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckQuizLink" time="1.062" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckNewsPage" time="6.031" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckPoliticsPage" time="5.327" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialPage" time="4.841" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckTrendingPage" time="5.02" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckLifeStylePage" time="4.799" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckHealthPage" time="5.297" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckRelationshipPage" time="5.187" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckTravelPage" time="5.132" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckFashionPage" time="4.621" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckEntertainmentPage" time="4.443" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckBollywoodPage" time="5.234" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialCelebritiesPage" time="6.303" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSportsPage" time="5.218" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckHollywoodPage" time="4.99" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckOpinionPage" time="1.074" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckIndiaKaPulsePage" time="1.056" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckSocialImpactPage" time="1.055" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckGirlingPage" time="1.048" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckVideosPage" time="1.053" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="CheckQuizPage" time="1.048" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest"/>
+  <testcase name="ClickHamburgerMenu" time="1.938" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckAbutUsLink" time="0.041" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckTermsOfUseLink" time="0.024" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckPrivacyPolicyLink" time="0.026" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckCantactUsLink" time="0.025" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckAbutUsPage" time="4.795" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckTermsOfUsePage" time="4.934" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckPrivacyPolicyPage" time="4.579" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckCantactUsPage" time="0.027" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest"/>
+  <testcase name="CheckSearchOption" time="1.742" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckSiteLogo" time="0.021" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckNewsCategories" time="0.02" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckLifeStyleCategories" time="5.027" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckEntertainmentCategories" time="0.026" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckOpinion" time="0.02" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckIndiaKaPulse" time="0.026" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckGirling" time="0.022" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckVideos" time="0.019" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckQuiz" time="0.025" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckInstaLink" time="0.02" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckTwitterLink" time="0.022" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckFacebookLink" time="10.027" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedHomePage.FacebookLink(WittyFeedHomePage.java:130)
+	at WittyFeedTestCases.WittyFeedHomePageTestcasesTest.CheckFacebookLink(WittyFeedHomePageTestcasesTest.java:104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckYouTubeLink" time="0.022" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckFeaturedPostImage" time="0.033" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckFeaturedPostTitle" time="0.028" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckFeaturedPostAuthor" time="0.026" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckSecondPostImage" time="0.02" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckSecondPostTitle" time="0.025" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckSecondPostAuthor" time="0.013" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckThirdPostImage" time="0.02" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckThirdPostTitle" time="0.021" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckThirdPostAuthor" time="0.021" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckLatestStoryImage" time="1.063" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckLatestStoryTitle" time="1.07" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckLatestStoryAuthor" time="1.059" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckWittyVideo1" time="1.071" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckWittyVideo2" time="1.049" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckQuizeFeedImage" time="1.073" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckQuizefeedTitle" time="1.072" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckQuizeFeedAuthor" time="1.065" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckEatSleepReadReaptImage" time="1.056" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckEatSleepReadReaptTitle" time="1.049" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="CheckEatSleepReadReaptAuthor" time="1.055" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest"/>
+  <testcase name="ClickSearchOption" time="7.802" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="CheckSearchHeader" time="0.024" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="CheckSearchedStoryImage" time="0.031" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="CheckSearchedStoryTitle" time="0.032" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest"/>
+  <testcase name="OpenStoryPage" time="18.238" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckAdvertisementFrame" time="0.028" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryAuthor" time="1.739" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryTitle" time="1.138" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryDesc" time="1.102" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryShares" time="1.085" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryShareOptions" time="1.185" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest"/>
+  <testcase name="CheckStoryContent" time="10.189" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;css selector&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;div.col:nth-child(6) &amp;gt; p:nth-child(1)&amp;quot;}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;wittyfeed-Vostro-3558&amp;apos;, ip: &amp;apos;127.0.1.1&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.4.0-131-generic&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:41329}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d), userDataDir=/tmp/.org.chromium.Chromium.PZHGhn}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0189373354be85fce8eacd1c20793d16
+*** Element info: {Using=css selector, value=div.col:nth-child(6) &amp;gt; p:nth-child(1)}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.col:nth-child(6) > p:nth-child(1)"}
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'wittyfeed-Vostro-3558', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-131-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:41329}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d), userDataDir=/tmp/.org.chromium.Chromium.PZHGhn}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0189373354be85fce8eacd1c20793d16
+*** Element info: {Using=css selector, value=div.col:nth-child(6) > p:nth-child(1)}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:510)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at PagesOnWittyFeedTv.WittyFeedStoryPage.StoryContent(WittyFeedStoryPage.java:106)
+	at WittyFeedTestCases.WittyFeedStoryPageTestCasesTest.CheckStoryContent(WittyFeedStoryPageTestCasesTest.java:76)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="ClickAuthorName" time="2.742" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest"/>
+  <testcase name="CheckBackgroundImage" time="10.047" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.BackgroundImage(WittyFeedUserProfilePage.java:40)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckBackgroundImage(WittyFeedUserProfileTestCasesTest.java:33)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckAuthorName" time="10.041" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.AuthorName(WittyFeedUserProfilePage.java:47)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckAuthorName(WittyFeedUserProfileTestCasesTest.java:41)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckAuthorImage" time="10.014" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.AuthorImage(WittyFeedUserProfilePage.java:54)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckAuthorImage(WittyFeedUserProfileTestCasesTest.java:48)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckWriterName" time="10.055" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.WriterName(WittyFeedUserProfilePage.java:61)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckWriterName(WittyFeedUserProfileTestCasesTest.java:56)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckEditor" time="10.032" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.Editor(WittyFeedUserProfilePage.java:68)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckEditor(WittyFeedUserProfileTestCasesTest.java:62)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckProfileDesc" time="10.021" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.ProfileDesc(WittyFeedUserProfilePage.java:94)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckProfileDesc(WittyFeedUserProfileTestCasesTest.java:92)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckDontMissThisStory" time="10.043" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.DontMissThisStory(WittyFeedUserProfilePage.java:101)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.CheckDontMissThisStory(WittyFeedUserProfileTestCasesTest.java:99)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="LatestStories" time="10.081" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;1&amp;gt; but was:&amp;lt;0&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at PagesOnWittyFeedTv.WittyFeedUserProfilePage.LatestStories(WittyFeedUserProfilePage.java:107)
+	at WittyFeedTestCases.WittyFeedUserProfileTestCasesTest.LatestStories(WittyFeedUserProfileTestCasesTest.java:107)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="CheckSearchOption" time="3.756" classname="WittyFeedTestCases.WittyTagstestcasesTest"/>
+  <testcase name="CheckSearchTags" time="0.044" classname="WittyFeedTestCases.WittyTagstestcasesTest"/>
+</testsuite>

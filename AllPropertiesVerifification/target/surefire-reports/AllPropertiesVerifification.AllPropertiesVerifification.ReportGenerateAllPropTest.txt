@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: AllPropertiesVerifification.AllPropertiesVerifification.ReportGenerateAllPropTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.867 sec <<< FAILURE!
+Setup(AllPropertiesVerifification.AllPropertiesVerifification.ReportGenerateAllPropTest)  Time elapsed: 0.769 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /home/wittyfeed/eclipse-workspace/AllPropertiesVerifification/geckodriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:115)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+	at AllPropertiesVerifification.AllPropertiesVerifification.ReportGenerateAllPropTest.Setup(ReportGenerateAllPropTest.java:73)
+

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="CheckSearchedStoryImage"/>
+          <include name="CheckSearchHeader"/>
+          <include name="ClickSearchOption"/>
+          <include name="CheckSearchedStoryTitle"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+        <methods>
+          <include name="CheckSocialCelebritiesPage"/>
+          <include name="CheckEntertainmentSubCata"/>
+          <include name="CheckFashionPage"/>
+          <include name="CheckQuizLink"/>
+          <include name="CheckGirlingPage"/>
+          <include name="CheckSocialImpactLink"/>
+          <include name="CheckIndiaKaPulsePage"/>
+          <include name="CheckRelationshipPage"/>
+          <include name="CheckLifeStylePage"/>
+          <include name="CheckLifeStyleCata"/>
+          <include name="ClickHamburgerMenu"/>
+          <include name="CheckVideosLink"/>
+          <include name="CheckEntertainmentPage"/>
+          <include name="CheckOpinionLink"/>
+          <include name="CheckBollywoodPage"/>
+          <include name="CheckEntertainmentCata"/>
+          <include name="CheckIndiaKaPulseLink"/>
+          <include name="CheckTrendingPage"/>
+          <include name="CheckLifeStyleSubCata"/>
+          <include name="CheckVideosPage"/>
+          <include name="CheckTravelPage"/>
+          <include name="CheckNewsCata"/>
+          <include name="CheckSportsPage"/>
+          <include name="CheckNewsPage"/>
+          <include name="CheckGirlingLink"/>
+          <include name="CheckHollywoodPage"/>
+          <include name="CheckPoliticsPage"/>
+          <include name="CheckSocialPage"/>
+          <include name="CheckSocialImpactPage"/>
+          <include name="CheckHealthPage"/>
+          <include name="CheckOpinionPage"/>
+          <include name="CheckQuizPage"/>
+          <include name="CheckNewsSubCata"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+        <methods>
+          <include name="CheckCantactUsLink"/>
+          <include name="CheckPrivacyPolicyLink"/>
+          <include name="CheckTermsOfUseLink"/>
+          <include name="ClickHamburgerMenu"/>
+          <include name="CheckCantactUsPage"/>
+          <include name="CheckPrivacyPolicyPage"/>
+          <include name="CheckTermsOfUsePage"/>
+          <include name="CheckAbutUsLink"/>
+          <include name="CheckAbutUsPage"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+        <methods>
+          <include name="CheckStoryAuthor"/>
+          <include name="CheckAdvertisementFrame"/>
+          <include name="CheckStoryContent"/>
+          <include name="CheckStoryShareOptions"/>
+          <include name="CheckStoryDesc"/>
+          <include name="CheckStoryShares"/>
+          <include name="CheckStoryTitle"/>
+          <include name="OpenStoryPage"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyTagstestcasesTest">
+        <methods>
+          <include name="CheckSearchTags"/>
+          <include name="CheckSearchOption"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+        <methods>
+          <include name="CheckpidValue"/>
+          <include name="Checkdev_sourceValue"/>
+          <include name="CreatHarFile"/>
+          <include name="Checkgoogle_entitiesValue"/>
+          <include name="Checkpage_urlValue"/>
+          <include name="Checktree_idValue"/>
+          <include name="Checkinit_story_idValue"/>
+          <include name="CheckussValue"/>
+          <include name="Checkwriter_nameValue"/>
+          <include name="CheckGMTValue"/>
+          <include name="Checkwriter_idValue"/>
+          <include name="Checkcountry_nameValue"/>
+          <include name="CheckofcValue"/>
+          <include name="CheckfpValue"/>
+          <include name="CheckadblockerValue"/>
+          <include name="Checkstory_tagsValue"/>
+          <include name="Checktotal_adsValue"/>
+          <include name="Checklanguage_EnglishValue"/>
+          <include name="Checkcategory_idValue"/>
+          <include name="CheckcityValue"/>
+          <include name="Checkcurrent_blockValue"/>
+          <include name="Checkreferral_domainValue"/>
+          <include name="CheckadPartnerValue"/>
+          <include name="CheckdomainValue"/>
+          <include name="Checkvisit_blockValue"/>
+          <include name="Checkcountry_codeValue"/>
+          <include name="Checktotal_blocksValue"/>
+          <include name="Checkpage_typeValue"/>
+          <include name="Checkstory_idValue"/>
+          <include name="OpenGoogleappsHar_analyzer"/>
+          <include name="Checkclient_ipValue"/>
+          <include name="Checkcategory_peopleValue"/>
+          <include name="CheckPBValue"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+        <methods>
+          <include name="CheckFacebookLink"/>
+          <include name="CheckThirdPostImage"/>
+          <include name="CheckQuizeFeedImage"/>
+          <include name="CheckFeaturedPostImage"/>
+          <include name="CheckGirling"/>
+          <include name="CheckLatestStoryAuthor"/>
+          <include name="CheckInstaLink"/>
+          <include name="CheckSecondPostImage"/>
+          <include name="CheckLatestStoryTitle"/>
+          <include name="CheckTwitterLink"/>
+          <include name="CheckEatSleepReadReaptAuthor"/>
+          <include name="CheckEatSleepReadReaptImage"/>
+          <include name="CheckLifeStyleCategories"/>
+          <include name="CheckVideos"/>
+          <include name="CheckSecondPostAuthor"/>
+          <include name="CheckFeaturedPostTitle"/>
+          <include name="CheckIndiaKaPulse"/>
+          <include name="CheckSiteLogo"/>
+          <include name="CheckOpinion"/>
+          <include name="CheckThirdPostTitle"/>
+          <include name="CheckEatSleepReadReaptTitle"/>
+          <include name="CheckEntertainmentCategories"/>
+          <include name="CheckWittyVideo1"/>
+          <include name="CheckQuiz"/>
+          <include name="CheckQuizeFeedAuthor"/>
+          <include name="CheckSearchOption"/>
+          <include name="CheckThirdPostAuthor"/>
+          <include name="CheckQuizefeedTitle"/>
+          <include name="CheckSecondPostTitle"/>
+          <include name="CheckNewsCategories"/>
+          <include name="CheckWittyVideo2"/>
+          <include name="CheckFeaturedPostAuthor"/>
+          <include name="CheckLatestStoryImage"/>
+          <include name="CheckYouTubeLink"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+        <methods>
+          <include name="CheckAuthorName"/>
+          <include name="ClickAuthorName"/>
+          <include name="CheckDontMissThisStory"/>
+          <include name="LatestStories"/>
+          <include name="CheckBackgroundImage"/>
+          <include name="CheckEditor"/>
+          <include name="CheckAuthorImage"/>
+          <include name="CheckWriterName"/>
+          <include name="CheckProfileDesc"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

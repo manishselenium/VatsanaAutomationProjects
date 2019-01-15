@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="getResults"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+          <include name="CheckStoryContent"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyTagstestcasesTest">
+        <methods>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+        <methods>
+          <include name="getResults"/>
+          <include name="CreatHarFile"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+        <methods>
+          <include name="CheckFacebookLink"/>
+          <include name="getResults"/>
+        </methods>
+      </class>
+      <class name="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+        <methods>
+          <include name="CheckAuthorName"/>
+          <include name="getResults"/>
+          <include name="CheckDontMissThisStory"/>
+          <include name="LatestStories"/>
+          <include name="CheckBackgroundImage"/>
+          <include name="CheckEditor"/>
+          <include name="CheckAuthorImage"/>
+          <include name="CheckWriterName"/>
+          <include name="CheckProfileDesc"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

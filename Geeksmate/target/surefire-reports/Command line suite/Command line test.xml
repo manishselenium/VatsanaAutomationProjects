@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="wittyfeed-Vostro-3558" name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest" tests="131" failures="0" timestamp="18 Dec 2018 08:40:55 GMT" time="302.748" errors="0">
+  <testcase name="@BeforeTest CreatHarFile" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <failure type="org.openqa.selenium.TimeoutException" message="timeout
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &amp;apos;3.5.3&amp;apos;, revision: &amp;apos;a88d25fe6b&amp;apos;, time: &amp;apos;2017-08-29T12:42:44.417Z&amp;apos;
+System info: host: &amp;apos;wittyfeed-Vostro-3558&amp;apos;, ip: &amp;apos;127.0.1.1&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;4.4.0-131-generic&amp;apos;, java.version: &amp;apos;1.8.0_191&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:39905}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d), userDataDir=/tmp/.org.chromium.Chromium.5Gv3Ia}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3f263da1a74025233395d7ea7e72bd1">
+      <![CDATA[org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d),platform=Linux 4.4.0-131-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'wittyfeed-Vostro-3558', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-131-generic', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=LINUX, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:39905}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=LINUX, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d), userDataDir=/tmp/.org.chromium.Chromium.5Gv3Ia}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3f263da1a74025233395d7ea7e72bd1
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:954)
+	at WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest.CreatHarFile(CaptureAndParsingHarFileForPixPngTest.java:84)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyTagstestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod getResults" time="0.0" classname="WittyFeedTestCases.WittyTagstestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="OpenGoogleappsHar_analyzer" time="0.001" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckGMTValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkvisit_blockValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkcountry_codeValue" time="0.001" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checklanguage_EnglishValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkcategory_peopleValue" time="0.004" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkwriter_nameValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkwriter_idValue" time="0.001" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkcategory_idValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkstory_idValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkgoogle_entitiesValue" time="0.001" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkpage_typeValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckcityValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkcountry_nameValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckfpValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkpage_urlValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkclient_ipValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkreferral_domainValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkdev_sourceValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckPBValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkstory_tagsValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkcurrent_blockValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checktotal_blocksValue" time="0.008" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckdomainValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckadPartnerValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckadblockerValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckofcValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checktotal_adsValue" time="0.001" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checktree_idValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckussValue" time="0.001" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckpidValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="Checkinit_story_idValue" time="0.0" classname="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngTest">
+    <skipped/>
+  </testcase>
+  <testcase name="ClickHamburgerMenu" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckNewsCata" time="0.001" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckNewsSubCata" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLifeStyleCata" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLifeStyleSubCata" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEntertainmentCata" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEntertainmentSubCata" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckOpinionLink" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckIndiaKaPulseLink" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSocialImpactLink" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckGirlingLink" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckVideosLink" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckQuizLink" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckNewsPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckPoliticsPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSocialPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckTrendingPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLifeStylePage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckHealthPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckRelationshipPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckTravelPage" time="0.001" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckFashionPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEntertainmentPage" time="0.001" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckBollywoodPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSocialCelebritiesPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSportsPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckHollywoodPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckOpinionPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckIndiaKaPulsePage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSocialImpactPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckGirlingPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckVideosPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckQuizPage" time="0.0" classname="WittyFeedTestCases.WittyFeedCatagoiesTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="ClickHamburgerMenu" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckAbutUsLink" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckTermsOfUseLink" time="0.001" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckPrivacyPolicyLink" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckCantactUsLink" time="0.001" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckAbutUsPage" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckTermsOfUsePage" time="0.001" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckPrivacyPolicyPage" time="0.0" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckCantactUsPage" time="0.001" classname="WittyFeedTestCases.WittyFeedFooterOptionTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSearchOption" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSiteLogo" time="0.005" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckNewsCategories" time="0.001" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLifeStyleCategories" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEntertainmentCategories" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckOpinion" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckIndiaKaPulse" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckGirling" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckVideos" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckQuiz" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckInstaLink" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckTwitterLink" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckFacebookLink" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckYouTubeLink" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckFeaturedPostImage" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckFeaturedPostTitle" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckFeaturedPostAuthor" time="0.004" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSecondPostImage" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSecondPostTitle" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSecondPostAuthor" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckThirdPostImage" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckThirdPostTitle" time="0.006" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckThirdPostAuthor" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLatestStoryImage" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLatestStoryTitle" time="0.001" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckLatestStoryAuthor" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckWittyVideo1" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckWittyVideo2" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckQuizeFeedImage" time="0.006" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckQuizefeedTitle" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckQuizeFeedAuthor" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEatSleepReadReaptImage" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEatSleepReadReaptTitle" time="0.001" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEatSleepReadReaptAuthor" time="0.0" classname="WittyFeedTestCases.WittyFeedHomePageTestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="ClickSearchOption" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSearchHeader" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSearchedStoryImage" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSearchedStoryTitle" time="0.0" classname="WittyFeedTestCases.WittyFeedSearchPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="OpenStoryPage" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckAdvertisementFrame" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckStoryAuthor" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckStoryTitle" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckStoryDesc" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckStoryShares" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckStoryShareOptions" time="0.001" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckStoryContent" time="0.0" classname="WittyFeedTestCases.WittyFeedStoryPageTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="ClickAuthorName" time="0.002" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckBackgroundImage" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckAuthorName" time="0.005" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckAuthorImage" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckWriterName" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckEditor" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckProfileDesc" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckDontMissThisStory" time="0.001" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="LatestStories" time="0.0" classname="WittyFeedTestCases.WittyFeedUserProfileTestCasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSearchOption" time="0.001" classname="WittyFeedTestCases.WittyTagstestcasesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="CheckSearchTags" time="0.0" classname="WittyFeedTestCases.WittyTagstestcasesTest">
+    <skipped/>
+  </testcase>
+</testsuite>

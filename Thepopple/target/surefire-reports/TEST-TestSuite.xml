@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="120" failures="0" name="TestSuite" time="279.939" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/wittyfeed/eclipse-workspace/Thepopple"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/wittyfeed/eclipse-workspace/Thepopple"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/wittyfeed/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3098713197699467867.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.4.0-131-generic"/>
+    <property name="user.home" value="/home/wittyfeed"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="wittyfeed"/>
+    <property name="java.class.path" value="/home/wittyfeed/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/wittyfeed/eclipse-workspace/Thepopple/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="OpenGoogleappsHar_analyzer" time="8.499"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckGMTValue" time="0.08"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkvisit_blockValue" time="0.07"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkcountry_codeValue" time="0.059"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checklanguage_EnglishValue" time="0.064"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkcategory_peopleValue" time="0.118"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkwriter_nameValue" time="0.061"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkwriter_idValue" time="0.062"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkcategory_idValue" time="0.063"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkstory_idValue" time="0.071"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkgoogle_entitiesValue" time="0.051"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkpage_typeValue" time="0.052"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckcityValue" time="0.056"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkcountry_nameValue" time="0.059"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckfpValue" time="0.052"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkpage_urlValue" time="0.051"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkclient_ipValue" time="0.056"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkreferral_domainValue" time="0.06"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkdev_sourceValue" time="0.057"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckPBValue" time="0.058"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkstory_tagsValue" time="0.053"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkcurrent_blockValue" time="0.051"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checktotal_blocksValue" time="0.051"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckdomainValue" time="0.054"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckadPartnerValue" time="0.053"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckadblockerValue" time="0.051"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckofcValue" time="0.061"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checktotal_adsValue" time="0.061"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checktree_idValue" time="0.05"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckussValue" time="0.059"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="CheckpidValue" time="0.053"/>
+  <testcase classname="PoppleTestCases.CaptureAndParsingHarFileForPixPngTest" name="Checkinit_story_idValue" time="0.05"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="ClickHamburgerMenu" time="9.947"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPositiveCata" time="1.122"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPositiveSubCata" time="1.062"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPopularCata" time="1.069"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPopularSubCata" time="1.054"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckpeopleCata" time="1.051"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckpeopleSubCata" time="1.051"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckVideoLink" time="1.055"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckQuizLink" time="1.05"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPositivePage" time="10.801"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckAnimalsPage" time="23.658"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckHumorPage" time="22.722"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckTravelPage" time="21.912"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckDiyPage" time="14.707"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPopularPage" time="23.143"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckTerendingPage" time="9.502"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckCulturePage" time="5.36"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckSportsPage" time="5.153"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckTechnologyPage" time="5.781"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckPeoplePage" time="4.774"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckEntertainmentPage" time="5.394"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckLifestylePage" time="4.898"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckRelationshipPage" time="5.363"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckOpinionPage" time="5.216"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckVideoPage" time="7.2"/>
+  <testcase classname="PoppleTestCases.CatagoriesPageTestCasesTest" name="CheckQuizPage" time="5.541"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="ClickHamburgerMenu" time="1.905"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckAbutUsLink" time="0.029"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckTermsOfUseLink" time="0.044"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckPrivacyPolicyLink" time="0.042"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckCantactUsLink" time="0.033"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckAbutUsPage" time="5.064"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckTermsOfUsePage" time="5.798"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckPrivacyPolicyPage" time="5.537"/>
+  <testcase classname="PoppleTestCases.FooterOptionTestCasesTest" name="CheckCantactUsPage" time="0.025"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckSearchOption" time="1.988"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckFacebookLink" time="0.02"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckInstaLink" time="5.029"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckTwittLink" time="0.021"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckYouTubeLink" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckSiteLogo" time="0.021"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckPositiveCategoriesLink" time="0.024"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckpopularCategoriesLink" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckPeopleCategoriesLink" time="0.021"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckVideosLink" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckQuizLink" time="0.023"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckFeaturedPostImage" time="0.021"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckFeaturedPostTitle" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckFeaturedPostAuthor" time="0.023"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckSecondPostImage" time="0.023"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckSecondPostTitle" time="0.026"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckSecondPostAuthor" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckThirdPostImage" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckThirdPostTitle" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckThirdPostAuthor" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckLatestStoryImage" time="0.022"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckLatestStoryTitle" time="0.027"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckLatestStoryAuthor" time="1.061"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckTheVideo1" time="1.058"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="Checkvideo2" time="1.057"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckQuizeFeedImage" time="1.053"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckQuizefeedTitle" time="1.056"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="QuizeFeedAuthor" time="1.035"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckEatSleepReadReaptImage" time="1.053"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckEatSleepReadReaptTitle" time="1.052"/>
+  <testcase classname="PoppleTestCases.HomePageTestCasesTest" name="CheckEatSleepReadReaptAuthor" time="1.053"/>
+  <testcase classname="PoppleTestCases.SearchPageTestCasesTest" name="ClickSearchOption" time="8.542"/>
+  <testcase classname="PoppleTestCases.SearchPageTestCasesTest" name="CheckSearchHeader" time="0.024"/>
+  <testcase classname="PoppleTestCases.SearchPageTestCasesTest" name="CheckSearchedStoryImage" time="0.023"/>
+  <testcase classname="PoppleTestCases.SearchPageTestCasesTest" name="CheckSearchedStoryTitle" time="0.02"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="OpenStoryPage" time="9.952"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckAdvertisementFrame" time="0.047"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryFirstImage" time="0.043"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryAuthor" time="1.197"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryTitle" time="3.235"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryDesc" time="1.112"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryShares" time="1.08"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryShareOptions" time="1.163"/>
+  <testcase classname="PoppleTestCases.StoryPageTestCasesTest" name="CheckStoryContent" time="1.069"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="ClickAuthorName" time="6.905"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckBackgroundImage" time="0.026"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckAuthorName" time="0.032"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckAuthorImage" time="0.026"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckWriterName" time="0.016"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckEditor" time="0.023"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckProfileDesc" time="0.022"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="CheckDontMissThisStory" time="0.015"/>
+  <testcase classname="PoppleTestCases.UserProfileTestCasesTest" name="LatestStories" time="0.015"/>
+</testsuite>

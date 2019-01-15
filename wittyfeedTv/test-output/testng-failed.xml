@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="WittyFeedTestCases.CaptureAndParsingHarFileForPixPngWFTest">
+        <methods>
+          <include name="Checkcountry_nameValue"/>
+          <include name="CheckGMTValue"/>
+          <include name="CheckfpValue"/>
+          <include name="tearDown"/>
+          <include name="CheckofcValue"/>
+          <include name="CheckussValue"/>
+          <include name="Checkcurrent_blockValue"/>
+          <include name="getResults"/>
+          <include name="Checktree_idValue"/>
+          <include name="Checkwriter_nameValue"/>
+          <include name="Checkinit_story_idValue"/>
+          <include name="Checkdev_sourceValue"/>
+          <include name="CheckpidValue"/>
+          <include name="Checkpage_urlValue"/>
+          <include name="CheckPBValue"/>
+          <include name="Checkstory_idValue"/>
+          <include name="OpenGoogleappsHar_analyzer"/>
+          <include name="RecordHAR"/>
+          <include name="CheckadblockerValue"/>
+          <include name="Checkcategory_peopleValue"/>
+          <include name="Checkpage_typeValue"/>
+          <include name="Checkclient_ipValue"/>
+          <include name="Checkvisit_blockValue"/>
+          <include name="CheckdomainValue"/>
+          <include name="Checktotal_blocksValue"/>
+          <include name="Checkgoogle_entitiesValue"/>
+          <include name="Checkreferral_domainValue"/>
+          <include name="Setup"/>
+          <include name="Checkcountry_codeValue"/>
+          <include name="CheckadPartnerValue"/>
+          <include name="CheckcityValue"/>
+          <include name="Checktotal_adsValue"/>
+          <include name="Checklanguage_EnglishValue"/>
+          <include name="Checkstory_tagsValue"/>
+          <include name="Checkcategory_idValue"/>
+          <include name="Checkwriter_idValue"/>
+        </methods>
+      </class> <!-- WittyFeedTestCases.CaptureAndParsingHarFileForPixPngWFTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

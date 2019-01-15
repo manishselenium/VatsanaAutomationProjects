@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="GeeksmateTestCases.healthiasticUserProfileTestCasesTest">
+        <methods>
+          <include name="LatestStories"/>
+          <include name="CheckWriterName"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="CheckBackgroundImage"/>
+          <include name="getResults"/>
+          <include name="CheckAuthorImage"/>
+          <include name="CheckEditor"/>
+          <include name="CheckProfileDesc"/>
+          <include name="CheckDontMissThisStory"/>
+          <include name="CheckAuthorName"/>
+          <include name="ClickAuthorName"/>
+        </methods>
+      </class> <!-- GeeksmateTestCases.healthiasticUserProfileTestCasesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,162 @@
+[12310:12310:0102/192155.746546:WARNING:password_store_factory.cc(261)] Using basic (unencrypted) store for password storage. See https://chromium.googlesource.com/chromium/src/+/master/docs/linux_password_storage.md for more information about password storage options.
+[12310:12310:0102/192155.812096:ERROR:x11_input_method_context_impl_gtk.cc(144)] Not implemented reached in virtual void libgtkui::X11InputMethodContextImplGtk::SetSurroundingText(const base::string16 &, const gfx::Range &)
+[12310:12329:0102/192157.516763:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.google.com failed err=-8172
+[12310:12339:0102/192157.517250:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for accounts.google.com failed err=-8172
+[12310:12310:0102/192158.059576:WARNING:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
+[12310:12338:0102/192159.175699:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ssl.gstatic.com failed err=-8172
+[12310:12310:0102/192159.375156:WARNING:CONSOLE(77)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://ssl.gstatic.com/chrome/components/doodle-notifier-02.html (77)
+[12310:12310:0102/192159.625882:ERROR:CONSOLE(277)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.innervoice.ai') does not match the recipient window's origin ('https://www.google.com').", source: chrome-search://most-visited/single.js (277)
+[12310:12310:0102/192200.415993:INFO:CONSOLE(8)] "SW registered", source: https://www.google.com/_/chrome/newtab?ie=UTF-8 (8)
+[12310:12488:0102/192201.460122:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for tr.outbrain.com failed err=-8172
+[12310:12488:0102/192202.561795:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for adservice.google.co.in failed err=-8172
+[12310:12329:0102/192203.486421:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.innervoice.ai failed err=-8172
+[12310:12341:0102/192204.067060:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for in-gmtdmp.mookie1.com failed err=-8172
+[12310:12341:0102/192204.162426:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for graph.facebook.com failed err=-8172
+[12310:12341:0102/192204.191439:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for connect.facebook.net failed err=-8172
+[12310:12341:0102/192204.206477:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for assets.pinterest.com failed err=-8172
+[12310:12341:0102/192204.422635:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.instagram.com failed err=-8172
+[12310:12341:0102/192204.442884:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for certify-js.alexametrics.com failed err=-8172
+[12310:12341:0102/192204.471397:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.google.co.in failed err=-8172
+[12310:12329:0102/192204.584882:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.google-analytics.com failed err=-8172
+[12310:12329:0102/192204.603892:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.googletagservices.com failed err=-8172
+[12310:12329:0102/192204.612844:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for stats.g.doubleclick.net failed err=-8172
+[12310:12488:0102/192204.618050:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for amplify.outbrain.com failed err=-8172
+[12310:12488:0102/192205.212952:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ib.adnxs.com failed err=-8172
+[12310:12488:0102/192205.222080:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for platform.twitter.com failed err=-8172
+[12310:12488:0102/192205.230756:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sb.scorecardresearch.com failed err=-8172
+[12310:12488:0102/192205.244559:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for segmentsync.dc.cuberoot.co failed err=-8172
+[12310:12488:0102/192205.419526:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ic.ph.affinity.com failed err=-8172
+[12310:12488:0102/192205.429907:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for fonts.gstatic.com failed err=-8172
+[12310:12488:0102/192205.440843:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for pixel.quantserve.com failed err=-8172
+[12310:12488:0102/192205.484571:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.googletagmanager.com failed err=-8172
+[12310:12488:0102/192205.491104:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for www.facebook.com failed err=-8172
+[12310:12488:0102/192205.508188:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for dyf929ibfojgx.cloudfront.net failed err=-8172
+[12310:12488:0102/192205.861142:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for mwzeom.zeotap.com failed err=-8172
+[12310:12488:0102/192205.867249:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cuberoottagmanager.dc.cuberoot.co failed err=-8172
+[12310:12488:0102/192205.873384:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for adservice.google.com failed err=-8172
+[12310:12329:0102/192205.878190:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for secure.quantserve.com failed err=-8172
+[12310:12488:0102/192206.662573:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for amplifypixel.outbrain.com failed err=-8172
+[12310:12329:0102/192206.679739:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for fonts.googleapis.com failed err=-8172
+[12310:12488:0102/192206.692593:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for dabwmjw98f46j.cloudfront.net failed err=-8172
+[12310:12310:0102/192207.817121:INFO:CONSOLE(29)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: https://segmentsync.dc.cuberoot.co/cookiedatav5.js (29)
+[12310:12310:0102/192208.424072:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token < in JSON at position 0", source: https://www.innervoice.ai/basic-beliefs-that-are-the-pillars-of-hindu-dharma-72087?utm_source=homepage_promo (1)
+[12310:12508:0102/192208.854061:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for delivery.vatsana.com failed err=-8172
+[12310:12310:0102/192209.776500:INFO:CONSOLE(64)] "TypeError: Cannot read property 'className' of null", source: https://dyf929ibfojgx.cloudfront.net/assets_pwa_new/js/app.js (64)
+[12310:12488:0102/192215.124669:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cuberootmeta.dc.cuberoot.co failed err=-8172
+[12310:12488:0102/192223.378621:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cdn.onesignal.com failed err=-8172
+[12310:12488:0102/192223.819863:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for staticxx.facebook.com failed err=-8172
+[12310:12488:0102/192224.776069:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sc-static.net failed err=-8172
+[12310:12488:0102/192225.034393:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for spl.zeotap.com failed err=-8172
+[12310:12488:0102/192227.704746:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for platform-api.sharethis.com failed err=-8172
+[12310:12488:0102/192227.808230:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for securepubads.g.doubleclick.net failed err=-8172
+[12310:12493:0102/192228.827717:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for certify.alexametrics.com failed err=-8172
+[12310:12493:0102/192228.867467:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for log.pinterest.com failed err=-8172
+[12310:12310:0102/192229.640042:INFO:CONSOLE(345)] "[object Object]", source: https://dyf929ibfojgx.cloudfront.net/assets_pwa_new/js/app.js (345)
+[12310:12310:0102/192229.640121:INFO:CONSOLE(422)] "asdf", source: https://dyf929ibfojgx.cloudfront.net/assets_pwa_new/js/app.js (422)
+[12310:12493:0102/192229.965826:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for syndication.twitter.com failed err=-8172
+[12310:12493:0102/192231.307903:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for rules.quantcount.com failed err=-8172
+[12310:12488:0102/192233.119140:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for tr.snapchat.com failed err=-8172
+[12310:12488:0102/192233.324100:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for onesignal.com failed err=-8172
+[12310:12341:0102/192234.097238:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for pixel.wittyfeed.com failed err=-8172
+[12310:12341:0102/192234.335853:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for c.sharethis.mgr.consensu.org failed err=-8172
+[12310:12341:0102/192234.419730:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for buttons-config.sharethis.com failed err=-8172
+[12310:12488:0102/192236.186578:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for l.sharethis.com failed err=-8172
+[12310:12488:0102/192236.445300:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for count-server.sharethis.com failed err=-8172
+[12310:12339:0102/192238.198289:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for t.sharethis.com failed err=-8172
+[12310:12339:0102/192238.273424:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for adserver-us.adtech.advertising.com failed err=-8172
+[12310:12339:0102/192238.567055:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for img.onesignal.com failed err=-8172
+[12310:12310:0102/192238.732717:INFO:CONSOLE(829)] "debug_script", source: https://www.innervoice.ai/basic-beliefs-that-are-the-pillars-of-hindu-dharma-72087?utm_source=homepage_promo (829)
+[12310:12339:0102/192238.968115:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for hbopenbid.pubmatic.com failed err=-8172
+[12310:12341:0102/192239.821117:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for bid.contextweb.com failed err=-8172
+[12310:12341:0102/192239.842100:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for bidder.rtk.io failed err=-8172
+[12310:12341:0102/192239.995580:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for bidder.komoona.com failed err=-8172
+[12310:12329:0102/192240.556027:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sync.rtk.io failed err=-8172
+[12310:12329:0102/192240.583474:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for rtkio-d.openx.net failed err=-8172
+[12310:12329:0102/192240.735896:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for acdn.adnxs.com failed err=-8172
+[12310:12341:0102/192241.271658:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for bh.contextweb.com failed err=-8172
+[12310:12500:0102/192241.758977:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for eus.rubiconproject.com failed err=-8172
+[12310:12500:0102/192241.804221:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for s.komoona.com failed err=-8172
+[12310:12500:0102/192241.814724:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for u.openx.net failed err=-8172
+[12310:12500:0102/192242.052993:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ads.pubmatic.com failed err=-8172
+[12310:12310:0102/192242.293123:INFO:CONSOLE(47)] "kcookies=[{"":""}]", source: https://s.komoona.com/sync/usync.html (47)
+[12310:12310:0102/192242.293317:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192242.306919:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for match.adsrvr.org failed err=-8172
+[12310:12310:0102/192242.396487:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192242.496378:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192242.596407:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192242.699825:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192242.801801:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192242.896415:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192242.996390:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.096391:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.196462:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.296371:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.396338:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.496940:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.596438:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.696779:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.798137:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.896613:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192243.996436:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192244.096462:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192244.132982:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ad.turn.com failed err=-8172
+[12310:12500:0102/192244.185131:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for beacon.krxd.net failed err=-8172
+[12310:12500:0102/192244.200065:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for match.prod.bidr.io failed err=-8172
+[12310:12310:0102/192244.200605:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192244.224160:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for pixel.s3xified.com failed err=-8172
+[12310:12500:0102/192244.231472:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ssp.ynxs.io failed err=-8172
+[12310:12310:0102/192244.296452:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192244.397108:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192244.432310:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ums.adtechjp.com failed err=-8172
+[12310:12500:0102/192244.447684:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for x.bidswitch.net failed err=-8172
+[12310:12310:0102/192244.496437:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192244.576246:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for pr-bh.ybp.yahoo.com failed err=-8172
+[12310:12310:0102/192244.596515:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192244.609341:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cdn.komoona.com failed err=-8172
+[12310:12310:0102/192244.696709:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192244.787839:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for tr.blismedia.com failed err=-8172
+[12310:12310:0102/192244.796372:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192244.896388:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192244.996378:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192245.021853:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for image6.pubmatic.com failed err=-8172
+[12310:12500:0102/192245.064075:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for secure.adnxs.com failed err=-8172
+[12310:12500:0102/192245.071556:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cdn.districtm.io failed err=-8172
+[12310:12310:0102/192245.097534:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192245.173495:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for i.w55c.net failed err=-8172
+[12310:12310:0102/192245.196380:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192245.296416:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192245.396383:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12310:0102/192245.496428:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192245.538028:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cs.nex8.net failed err=-8172
+[12310:12310:0102/192245.596470:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12500:0102/192245.662842:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sync.ipredictive.com failed err=-8172
+[12310:12310:0102/192245.697790:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12339:0102/192245.720567:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for um.simpli.fi failed err=-8172
+[12310:12339:0102/192245.728445:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for pixel-a.sitescout.com failed err=-8172
+[12310:12310:0102/192245.796405:INFO:CONSOLE(51)] "kcookieSync[false]", source: https://s.komoona.com/sync/usync.html (51)
+[12310:12339:0102/192246.019545:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sync.mathtag.com failed err=-8172
+[12310:12339:0102/192246.287310:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sync-dsp.ad-m.asia failed err=-8172
+[12310:12500:0102/192246.622607:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for p.adsymptotic.com failed err=-8172
+[12310:12500:0102/192246.660786:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for thor.rtk.io failed err=-8172
+[12310:12500:0102/192246.683229:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for c1.adform.net failed err=-8172
+[12310:12500:0102/192246.865173:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for bsw.digitru.st failed err=-8172
+[12310:12500:0102/192246.871645:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for p.rfihub.com failed err=-8172
+[12310:12500:0102/192247.298817:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for t.wayfair.com failed err=-8172
+[12310:12500:0102/192247.320640:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for rbp.mxptint.net failed err=-8172
+[12310:12500:0102/192247.365925:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sync-tm.everesttech.net failed err=-8172
+[12310:12339:0102/192247.898592:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for pixel.rubiconproject.com failed err=-8172
+[12310:12339:0102/192248.086578:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cm.adform.net failed err=-8172
+[12310:12339:0102/192248.543213:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for sync.search.spotxchange.com failed err=-8172
+[12310:12339:0102/192248.743317:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for jp-u.openx.net failed err=-8172
+[12310:12339:0102/192249.464345:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for t.mookie1.com failed err=-8172
+[12310:12339:0102/192250.103675:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for s.amazon-adsystem.com failed err=-8172
+[12310:12339:0102/192250.121945:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for gce-jp.bidswitch.net failed err=-8172
+[12310:12500:0102/192251.227398:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for dmx.districtm.io failed err=-8172
+[12310:12500:0102/192251.448029:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ad.360yield.com failed err=-8172
+[12310:12500:0102/192251.625003:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cdn.digitru.st failed err=-8172
+[12310:12500:0102/192253.962696:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for cuberootdmp.dc.cuberoot.co failed err=-8172
+[12310:12500:0102/192254.046198:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for js-agent.newrelic.com failed err=-8172
+[12310:12500:0102/192254.062623:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for ad.doubleclick.net failed err=-8172
+[12310:12339:0102/192256.696093:ERROR:cert_verify_proc_nss.cc(974)] CERT_PKIXVerifyCert for bam.nr-data.net failed err=-8172
+[12310:12310:0102/200439.147101:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
+[12310:12310:0102/200439.147149:WARNING:pref_notifier_impl.cc(23)] Pref observer found at shutdown.
