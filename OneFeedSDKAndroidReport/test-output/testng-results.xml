@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20281" started-at="2019-01-24T12:43:07Z" finished-at="2019-01-24T12:43:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20281" started-at="2019-01-24T12:43:07Z" finished-at="2019-01-24T12:43:28Z">
+      <class name="TestSuit.OneFeedTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="Setup" is-config="true" duration-ms="13982" started-at="2019-01-24T12:42:53Z" finished-at="2019-01-24T12:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="ClickShowFeed()[pri:1, instance:TestSuit.OneFeedTest@4fb64261]" name="ClickShowFeed" duration-ms="1547" started-at="2019-01-24T12:43:07Z" finished-at="2019-01-24T12:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickShowFeed -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="63" started-at="2019-01-24T12:43:09Z" finished-at="2019-01-24T12:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickShowFeed status=SUCCESS method=OneFeedTest.ClickShowFeed()[pri:1, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckSearchBox()[pri:2, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckSearchBox" duration-ms="3393" started-at="2019-01-24T12:43:09Z" finished-at="2019-01-24T12:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSearchBox -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-24T12:43:13Z" finished-at="2019-01-24T12:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckSearchBox status=SUCCESS method=OneFeedTest.CheckSearchBox()[pri:2, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckFeaturedImage()[pri:3, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckFeaturedImage" duration-ms="1540" started-at="2019-01-24T12:43:13Z" finished-at="2019-01-24T12:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFeaturedImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-24T12:43:14Z" finished-at="2019-01-24T12:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFeaturedImage status=SUCCESS method=OneFeedTest.CheckFeaturedImage()[pri:3, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckFeaturedTitle()[pri:4, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckFeaturedTitle" duration-ms="126" started-at="2019-01-24T12:43:14Z" finished-at="2019-01-24T12:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFeaturedTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:14Z" finished-at="2019-01-24T12:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckFeaturedTitle status=SUCCESS method=OneFeedTest.CheckFeaturedTitle()[pri:4, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckCategoryOnFeaturedImage()[pri:5, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckCategoryOnFeaturedImage" duration-ms="142" started-at="2019-01-24T12:43:14Z" finished-at="2019-01-24T12:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCategoryOnFeaturedImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="17" started-at="2019-01-24T12:43:14Z" finished-at="2019-01-24T12:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCategoryOnFeaturedImage status=SUCCESS method=OneFeedTest.CheckCategoryOnFeaturedImage()[pri:5, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStorySource()[pri:6, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckStorySource" duration-ms="198" started-at="2019-01-24T12:43:14Z" finished-at="2019-01-24T12:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStorySource -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="6" started-at="2019-01-24T12:43:15Z" finished-at="2019-01-24T12:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStorySource status=SUCCESS method=OneFeedTest.CheckStorySource()[pri:6, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckStorywriter()[pri:7, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckStorywriter" duration-ms="75" started-at="2019-01-24T12:43:15Z" finished-at="2019-01-24T12:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStorywriter -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-24T12:43:15Z" finished-at="2019-01-24T12:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckStorywriter status=SUCCESS method=OneFeedTest.CheckStorywriter()[pri:7, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckCardStoryImage()[pri:8, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckCardStoryImage" duration-ms="191" started-at="2019-01-24T12:43:15Z" finished-at="2019-01-24T12:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCardStoryImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:15Z" finished-at="2019-01-24T12:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCardStoryImage status=SUCCESS method=OneFeedTest.CheckCardStoryImage()[pri:8, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckCardStoryTitle()[pri:9, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckCardStoryTitle" duration-ms="4389" started-at="2019-01-24T12:43:15Z" finished-at="2019-01-24T12:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCardStoryTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="3" started-at="2019-01-24T12:43:19Z" finished-at="2019-01-24T12:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCardStoryTitle status=SUCCESS method=OneFeedTest.CheckCardStoryTitle()[pri:9, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckCardStorywriter()[pri:10, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckCardStorywriter" duration-ms="189" started-at="2019-01-24T12:43:19Z" finished-at="2019-01-24T12:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCardStorywriter -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:19Z" finished-at="2019-01-24T12:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCardStorywriter status=SUCCESS method=OneFeedTest.CheckCardStorywriter()[pri:10, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckListStoryImage()[pri:11, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckListStoryImage" duration-ms="136" started-at="2019-01-24T12:43:19Z" finished-at="2019-01-24T12:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckListStoryImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckListStoryImage status=SUCCESS method=OneFeedTest.CheckListStoryImage()[pri:11, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckListStoryTitle()[pri:12, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckListStoryTitle" duration-ms="118" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckListStoryTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="0" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckListStoryTitle status=SUCCESS method=OneFeedTest.CheckListStoryTitle()[pri:12, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckListStoryWriter()[pri:13, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckListStoryWriter" duration-ms="116" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckListStoryWriter -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckListStoryWriter status=SUCCESS method=OneFeedTest.CheckListStoryWriter()[pri:13, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckListStorySource()[pri:14, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckListStorySource" duration-ms="141" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckListStorySource -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckListStorySource status=SUCCESS method=OneFeedTest.CheckListStorySource()[pri:14, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckNextStoryFeaturedImage()[pri:15, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckNextStoryFeaturedImage" duration-ms="7005" started-at="2019-01-24T12:43:20Z" finished-at="2019-01-24T12:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNextStoryFeaturedImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="2" started-at="2019-01-24T12:43:27Z" finished-at="2019-01-24T12:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckNextStoryFeaturedImage status=SUCCESS method=OneFeedTest.CheckNextStoryFeaturedImage()[pri:15, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckNextStoryFeaturedTitle()[pri:16, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckNextStoryFeaturedTitle" duration-ms="128" started-at="2019-01-24T12:43:27Z" finished-at="2019-01-24T12:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNextStoryFeaturedTitle -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="3" started-at="2019-01-24T12:43:27Z" finished-at="2019-01-24T12:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckNextStoryFeaturedTitle status=SUCCESS method=OneFeedTest.CheckNextStoryFeaturedTitle()[pri:16, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckCategoryOnNextStoryFeaturedImage()[pri:17, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckCategoryOnNextStoryFeaturedImage" duration-ms="237" started-at="2019-01-24T12:43:27Z" finished-at="2019-01-24T12:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCategoryOnNextStoryFeaturedImage -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:27Z" finished-at="2019-01-24T12:43:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckCategoryOnNextStoryFeaturedImage status=SUCCESS method=OneFeedTest.CheckCategoryOnNextStoryFeaturedImage()[pri:17, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckNextFeaturedStorywriter()[pri:18, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckNextFeaturedStorywriter" duration-ms="189" started-at="2019-01-24T12:43:27Z" finished-at="2019-01-24T12:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNextFeaturedStorywriter -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:28Z" finished-at="2019-01-24T12:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckNextFeaturedStorywriter status=SUCCESS method=OneFeedTest.CheckNextFeaturedStorywriter()[pri:18, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="CheckNextFeaturedStorySource()[pri:19, instance:TestSuit.OneFeedTest@4fb64261]" name="CheckNextFeaturedStorySource" duration-ms="160" started-at="2019-01-24T12:43:28Z" finished-at="2019-01-24T12:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckNextFeaturedStorySource -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="getResults" is-config="true" duration-ms="1" started-at="2019-01-24T12:43:28Z" finished-at="2019-01-24T12:43:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckNextFeaturedStorySource status=SUCCESS method=OneFeedTest.CheckNextFeaturedStorySource()[pri:19, instance:TestSuit.OneFeedTest@4fb64261] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuit.OneFeedTest@4fb64261]" name="tearDown" is-config="true" duration-ms="1031" started-at="2019-01-24T12:43:28Z" finished-at="2019-01-24T12:43:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSuit.OneFeedTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
