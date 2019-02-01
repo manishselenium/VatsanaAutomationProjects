@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42148" started-at="2019-02-01T10:16:30Z" finished-at="2019-02-01T10:17:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42148" started-at="2019-02-01T10:16:30Z" finished-at="2019-02-01T10:17:12Z">
+      <class name="TestSuit.UserFollowPageTestcasesTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="Setup" is-config="true" duration-ms="8039" started-at="2019-02-01T10:16:22Z" finished-at="2019-02-01T10:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="DoSignIn()[pri:1, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="DoSignIn" duration-ms="36591" started-at="2019-02-01T10:16:30Z" finished-at="2019-02-01T10:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoSignIn -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="getResults" is-config="true" duration-ms="41" started-at="2019-02-01T10:17:07Z" finished-at="2019-02-01T10:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DoSignIn status=SUCCESS method=UserFollowPageTestcasesTest.DoSignIn()[pri:1, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ClickUserProfileIcon()[pri:2, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="ClickUserProfileIcon" duration-ms="3738" started-at="2019-02-01T10:17:07Z" finished-at="2019-02-01T10:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickUserProfileIcon -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="getResults" is-config="true" duration-ms="1" started-at="2019-02-01T10:17:10Z" finished-at="2019-02-01T10:17:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickUserProfileIcon status=SUCCESS method=UserFollowPageTestcasesTest.ClickUserProfileIcon()[pri:2, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ClickFollowButton()[pri:3, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="ClickFollowButton" duration-ms="859" started-at="2019-02-01T10:17:10Z" finished-at="2019-02-01T10:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickFollowButton -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="getResults" is-config="true" duration-ms="0" started-at="2019-02-01T10:17:11Z" finished-at="2019-02-01T10:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickFollowButton status=SUCCESS method=UserFollowPageTestcasesTest.ClickFollowButton()[pri:3, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="ClickUnFollowButton()[pri:4, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="ClickUnFollowButton" duration-ms="862" started-at="2019-02-01T10:17:11Z" finished-at="2019-02-01T10:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickUnFollowButton -->
+        <test-method status="PASS" signature="getResults(org.testng.ITestResult)[pri:0, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="getResults" is-config="true" duration-ms="1" started-at="2019-02-01T10:17:12Z" finished-at="2019-02-01T10:17:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickUnFollowButton status=SUCCESS method=UserFollowPageTestcasesTest.ClickUnFollowButton()[pri:4, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResults -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSuit.UserFollowPageTestcasesTest@67b467e9]" name="tearDown" is-config="true" duration-ms="729" started-at="2019-02-01T10:17:12Z" finished-at="2019-02-01T10:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSuit.UserFollowPageTestcasesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
