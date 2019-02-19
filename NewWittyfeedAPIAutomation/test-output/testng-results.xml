@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3278" started-at="2019-02-19T12:56:57Z" finished-at="2019-02-19T12:57:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3278" started-at="2019-02-19T12:56:57Z" finished-at="2019-02-19T12:57:00Z">
+      <class name="RestAssured1.RestAssured1.UnlikeTest">
+        <test-method status="PASS" signature="CheckStatus()[pri:1, instance:RestAssured1.RestAssured1.UnlikeTest@3bfdc050]" name="CheckStatus" duration-ms="3181" started-at="2019-02-19T12:56:57Z" finished-at="2019-02-19T12:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+      </class> <!-- RestAssured1.RestAssured1.UnlikeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
